@@ -7,7 +7,6 @@ import argparse
 import io
 import json
 import time
-import warnings
 from itertools import product
 from pathlib import Path
 from urllib.request import Request, urlopen
@@ -18,6 +17,8 @@ import pandas as pd
 from scipy.optimize import minimize_scalar
 
 ROOT = Path(__file__).resolve().parent
+FPL_FIXTURES = 'https://fantasy.premierleague.com/api/fixtures/'
+FPL_TEAMS = 'https://fantasy.premierleague.com/api/bootstrap-static/'
 SETTINGS = {
     "model_version": 1, "mov_numerator": 1.74, "mov_coefficient": 0.001,
     "scale": 400, "start_rating": 1000,
@@ -28,13 +29,12 @@ SETTINGS = {
     "param_tune_window": 5,
 }
 
-def read_football_csv(url):
-    request = Request(url, headers={"User-Agent": "Mozilla/5.0"})
+def download(url):
+    request = Request(url, headers={"User-Agent": "Mozilla/5.0", "Cache-Control": "no-cache"})
     for attempt in range(3):
         try:
             with urlopen(request, timeout=30) as response:
-                payload = response.read()
-            break
+                return response.read()
         except (HTTPError, URLError, TimeoutError) as exc:
             if isinstance(exc, HTTPError) and exc.code not in {429, 500, 502, 503, 504}:
                 raise
@@ -42,6 +42,10 @@ def read_football_csv(url):
                 raise
             print(f"Retrying {url}: {exc}", flush=True)
             time.sleep(2 ** attempt)
+
+
+def read_football_csv(url):
+    payload = download(url)
     try:
         text = payload.decode("utf-8-sig")
     except UnicodeDecodeError:
@@ -71,40 +75,34 @@ def normalize_matches(raw, season=None):
     return out.reset_index(drop=True)
 
 
-def download_games():
-    season_frames = []
-    for season in range(FIRST_DATA_SEASON, LAST_DATA_SEASON + 1):
-        code = f"{season % 100:02d}{(season + 1) % 100:02d}"
-        url = f"https://www.football-data.co.uk/mmz4281/{code}/E0.csv"
-        try:
-            frame = normalize_matches(read_football_csv(url), season)
-        except HTTPError as exc:
-            if season == LAST_DATA_SEASON and exc.code == 404:
-                warnings.warn(f"Season {season}/{season + 1} is not published yet; using available seasons.")
-                continue
-            raise
-        if frame.empty:
-            raise ValueError(f"No Premier League rows in {url}")
-        season_frames.append(frame)
-        print(f"Loaded {season}/{season + 1}: {len(frame)} matches", flush=True)
-
-    games = pd.concat(season_frames, ignore_index=True)
-    # The free fixture feed covers published upcoming matches, not necessarily the full season.
-    try:
-        fixtures = normalize_matches(read_football_csv("https://www.football-data.co.uk/fixtures.csv"))
-        fixtures = fixtures.loc[fixtures["season"].eq(LAST_DATA_SEASON)
-                                & fixtures["gameday"].ge(today.tz_localize(None).normalize())]
-        games = pd.concat([games, fixtures], ignore_index=True)
-    except (HTTPError, URLError, TimeoutError, ValueError, KeyError) as exc:
-        warnings.warn(f"Upcoming fixtures unavailable; historical ratings still work: {exc}")
-
-    # Prefer completed results over any duplicate fixture entry.
-    games["completed"] = games["home_score"].notna() & games["away_score"].notna()
-    games = (games.sort_values("completed", ascending=False)
-             .drop_duplicates("game_id", keep="first")
-             .sort_values(["gameday", "gametime", "game_id"]).reset_index(drop=True))
-    assert not games["game_id"].duplicated().any()
-    return games
+def load_current_season(season):
+    """Use the league's results directly; Football-Data's CSV can lag by days."""
+    fixtures = json.loads(download(FPL_FIXTURES))
+    teams = json.loads(download(FPL_TEAMS))['teams']
+    # Keep the same team keys as the historical Football-Data ratings.
+    aliases = {'Man Utd': 'Man United', 'Spurs': 'Tottenham',
+               'Coventry City': 'Coventry', 'Hull City': 'Hull', 'Ipswich Town': 'Ipswich'}
+    names = {team['id']: aliases.get(team['name'], team['name']) for team in teams}
+    frame = pd.DataFrame(fixtures)
+    if frame.empty or len(names) != 20:
+        raise ValueError('Empty or invalid Premier League current-season feed')
+    kickoff = pd.to_datetime(frame.kickoff_time, utc=True).dt.tz_convert('Europe/London')
+    dated = kickoff.dropna()
+    if dated.empty or not (dated.dt.year - (dated.dt.month < 7).astype(int)).eq(season).all():
+        raise ValueError(f'Premier League feed is not for season {season}')
+    # FPL marks full time provisionally before its fantasy-points review finishes.
+    # A live match can already have scores, so scores alone never imply full time.
+    finished = frame.finished | frame.finished_provisional
+    if frame.loc[finished, ['team_h_score', 'team_a_score']].isna().any().any():
+        raise ValueError('Completed Premier League match is missing a score')
+    raw = pd.DataFrame({'Div': 'E0', 'Date': kickoff.dt.strftime('%d/%m/%Y'),
+                        'Time': kickoff.dt.strftime('%H:%M'),
+                        'HomeTeam': frame.team_h.map(names), 'AwayTeam': frame.team_a.map(names),
+                        'FTHG': frame.team_h_score.where(finished),
+                        'FTAG': frame.team_a_score.where(finished)})
+    if raw[['HomeTeam', 'AwayTeam']].isna().any().any():
+        raise ValueError('Unknown team in Premier League feed')
+    return normalize_matches(raw, season)
 
 
 def null_coalesce(x, y):
@@ -468,6 +466,10 @@ def load_games(data_dir, now, offline=False):
         return previous, metadata
     frames = []
     for year in range(2003, season + 1):
+        if year == season:
+            print(f'Fetching official Premier League season {year}/{year + 1}', flush=True)
+            frames.append(load_current_season(year))
+            continue
         old = previous[previous.season.eq(year)] if previous is not None else pd.DataFrame()
         if year < season and len(old.dropna(subset=['home_score', 'away_score'])) == 380:
             frames.append(old.dropna(subset=['home_score', 'away_score']).copy())
@@ -478,17 +480,13 @@ def load_games(data_dir, now, offline=False):
         if frame.empty:
             raise ValueError(f'Empty season feed: {year}')
         frames.append(frame)
-    fixtures = normalize_matches(read_football_csv('https://www.football-data.co.uk/fixtures.csv'))
-    fixtures = fixtures[fixtures.season.eq(season) & fixtures.gameday.ge(now.tz_localize(None).normalize())]
-    # Deduplication here is only for overlap between season and fixture feeds.
-    for frame in frames + [fixtures]:
+    for frame in frames:
         if frame.game_id.duplicated().any():
             raise ValueError('Duplicate match within a source feed')
-    games = pd.concat(frames + [fixtures], ignore_index=True)
+    games = pd.concat(frames, ignore_index=True)
     games['completed'] = games.home_score.notna() & games.away_score.notna()
     games = (games.sort_values('completed', ascending=False)
              .drop_duplicates('game_id').sort_values(['gameday', 'gametime', 'game_id']).reset_index(drop=True))
-    games = games[games.completed | games.gameday.ge(now.tz_localize(None).normalize())].copy()
     completed = validate_games(games, season)
     if previous is not None:
         old_ids = set(previous.dropna(subset=['home_score', 'away_score']).game_id)
@@ -496,8 +494,9 @@ def load_games(data_dir, now, offline=False):
             raise ValueError('Refresh lost previously completed matches; existing exports kept')
     metadata = {
         'downloaded_at': now.isoformat(),
-        'source': 'https://www.football-data.co.uk/englandm.php',
-        'fixtures_source': 'https://www.football-data.co.uk/fixtures.csv',
+        'source': FPL_FIXTURES,
+        'historical_source': 'https://www.football-data.co.uk/englandm.php',
+        'fixtures_source': FPL_FIXTURES,
         'latest_result_date': str(completed.gameday.max().date()),
         'completed_matches': len(completed),
         'season_counts': {str(k): int(v) for k, v in completed.groupby('season').size().items()},
@@ -533,25 +532,9 @@ def kickoff_utc(frame):
 
 
 def update_archive(existing, upcoming, now):
-    """Keep the last genuinely pre-kickoff forecast, including if a later run is late."""
-    fresh = upcoming[kickoff_utc(upcoming).gt(now)].copy()
+    """Record each weekly forecast once, before kickoff; never rewrite it."""
+    fresh = upcoming[kickoff_utc(upcoming).gt(now) & ~upcoming.game_id.isin(existing.game_id)].copy()
     fresh['prediction_timestamp'] = now.isoformat()
-    if not existing.empty:
-        locked = existing[kickoff_utc(existing).le(now) | kickoff_utc(existing).isna()]
-        fresh = fresh[~fresh.game_id.isin(locked.game_id)]
-        # Keep unchanged forecasts, including their original publication timestamp.
-        old = existing.set_index('game_id')
-        keep = []
-        for row in fresh.to_dict('records'):
-            if row['game_id'] not in old.index:
-                keep.append(True)
-                continue
-            prev = old.loc[row['game_id']]
-            changed = any(str(row[c])[:10] != str(prev[c])[:10] for c in ['gameday', 'gametime'])
-            changed |= any(not np.isclose(row[c], prev[c], rtol=0, atol=1e-9)
-                           for c in ['home_elo', 'away_elo', 'home_rank', 'away_rank'])
-            keep.append(changed)
-        fresh = fresh.loc[keep]
     return (pd.concat([existing, fresh], ignore_index=True)
             .drop_duplicates('game_id', keep='last').reset_index(drop=True))
 
@@ -587,21 +570,17 @@ def make_outputs(games, model, existing, now, record_predictions=True):
     cols = ['as_of_date', 'season', 'week', 'game_id', 'gameday', 'gametime', 'away_team', 'home_team',
             'away_rank', 'home_rank', 'away_elo', 'home_elo', 'p_away', 'p_home', 'elo_home_margin', 'model_home_spread']
     future = future[cols].sort_values(['gameday', 'gametime', 'game_id']).reset_index(drop=True)
-    archive = update_archive(existing, future, now) if record_predictions else existing.copy()
-    if record_predictions and not future.empty:
-        future = archive[archive.game_id.isin(future.game_id)][cols].copy()
-        future = future.sort_values(['gameday', 'gametime', 'game_id']).reset_index(drop=True)
     # The weekly schedule also shows completed games; never backfill a forecast after kickoff.
     current = games[games.season.eq(season)].copy()
     this_week = now.strftime('%G-W%V')
     week = (this_week if current.week.eq(this_week).any() else
             future.iloc[0].week if not future.empty else current.week.max())
+    archive = (update_archive(existing, future[future.week.eq(week)], now)
+               if record_predictions else existing.copy())
     weekly = current[current.week.eq(week)].copy()
     forecast_cols = ['game_id', 'as_of_date', 'away_rank', 'home_rank', 'away_elo', 'home_elo',
                      'p_away', 'p_home', 'elo_home_margin', 'model_home_spread']
-    display_forecasts = (pd.concat([archive, future], ignore_index=True)
-                         .drop_duplicates('game_id', keep='last'))
-    weekly = weekly.merge(display_forecasts[forecast_cols], on='game_id', how='left')
+    weekly = weekly.merge(archive.reindex(columns=forecast_cols), on='game_id', how='left')
     weekly['result'] = np.where(weekly.home_score.isna(), 'TBD', np.where(
         weekly.home_score.eq(weekly.away_score), 'DRAW', np.where(weekly.home_score.gt(weekly.away_score), 'HOME', 'AWAY')))
     base_cols = ['season', 'week', 'game_id', 'gameday', 'away_team', 'home_team', 'p_home', 'home_score', 'away_score']

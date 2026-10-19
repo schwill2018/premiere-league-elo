@@ -55,7 +55,7 @@ class PipelineTests(unittest.TestCase):
             pl.validate_games(games, int(games.season.max()))
 
     def test_live_download_failure_does_not_fallback(self):
-        with patch.object(pl, 'read_football_csv', side_effect=TimeoutError('offline')):
+        with patch.object(pl, 'download', side_effect=TimeoutError('offline')):
             with self.assertRaises(TimeoutError):
                 pl.load_games(pl.ROOT / 'data', pd.Timestamp('2026-10-19', tz='Europe/London'))
 
@@ -64,7 +64,7 @@ class PipelineTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, 'settings differ'):
                 pl.fit_model(self.games, pl.ROOT)
 
-    def test_archive_stability_changes_and_kickoff_lock(self):
+    def test_weekly_archive_is_frozen_even_when_ratings_rank_or_kickoff_change(self):
         fixture = pd.DataFrame([dict(game_id='match', gameday='2026-10-24', gametime='15:00',
                                      home_elo=1100., away_elo=1000., home_rank=1, away_rank=2,
                                      p_home=.6)])
@@ -75,9 +75,72 @@ class PipelineTests(unittest.TestCase):
         pd.testing.assert_frame_equal(first, second)
         changed = fixture.assign(home_elo=1120., p_home=.64)
         third = pl.update_archive(second, changed, pd.Timestamp('2026-10-22T10:00Z'))
-        self.assertEqual(third.iloc[0].p_home, .64)
+        pd.testing.assert_frame_equal(first, third)
+        rescheduled = fixture.assign(gameday='2026-10-25', gametime='16:30', home_rank=3)
+        fourth = pl.update_archive(third, rescheduled, pd.Timestamp('2026-10-23T10:00Z'))
+        pd.testing.assert_frame_equal(first, fourth)
         after = pl.update_archive(third, fixture.assign(home_elo=900., p_home=.3), pd.Timestamp('2026-10-24T16:00Z'))
         pd.testing.assert_frame_equal(third, after)
+
+    def test_official_feed_uses_full_time_results_and_ignores_live_scores(self):
+        teams = [dict(id=i + 1, name=name) for i, name in enumerate([
+            'Arsenal', 'Aston Villa', 'Bournemouth', 'Brentford', 'Brighton', 'Chelsea',
+            'Coventry City', 'Crystal Palace', 'Everton', 'Fulham', 'Hull City', 'Ipswich Town',
+            'Leeds', 'Liverpool', 'Man City', 'Man Utd', 'Newcastle', "Nott'm Forest", 'Spurs', 'Sunderland'])]
+        fixtures = [
+            dict(kickoff_time='2026-10-18T13:00:00Z', team_h=5, team_a=8, team_h_score=5,
+                 team_a_score=0, finished=False, finished_provisional=True),
+            dict(kickoff_time='2026-10-19T19:00:00Z', team_h=19, team_a=7, team_h_score=1,
+                 team_a_score=0, finished=False, finished_provisional=False),
+            dict(kickoff_time=None, team_h=11, team_a=12, team_h_score=None,
+                 team_a_score=None, finished=False, finished_provisional=False)]
+        with patch.object(pl, 'download', side_effect=[json.dumps(fixtures), json.dumps(dict(teams=teams))]):
+            games = pl.load_current_season(2026)
+        self.assertEqual(len(games), 2)
+        completed = games.dropna(subset=['home_score', 'away_score'])
+        self.assertEqual(list(completed.home_team), ['Brighton'])
+        self.assertEqual(completed.iloc[0].home_score, 5)
+        live = games[games.home_team.eq('Tottenham')].iloc[0]
+        self.assertTrue(pd.isna(live.home_score))
+        self.assertEqual(live.away_team, 'Coventry')
+        self.assertEqual(live.gametime, '20:00')
+        with patch.object(pl, 'download', side_effect=[json.dumps(fixtures), json.dumps(dict(teams=teams))]):
+            with self.assertRaisesRegex(ValueError, 'not for season'):
+                pl.load_current_season(2025)
+
+    def test_new_results_change_rankings_without_rewriting_weekly_forecasts(self):
+        games = self.games[self.games.gameday.le('2026-10-12') & self.games.home_score.notna()].copy()
+        # Two games in one calendar week; a result arrives between publications.
+        new_games = pl.normalize_matches(pd.DataFrame([
+            dict(Div='E0', Date='17/10/2026', Time='12:30', HomeTeam='Everton', AwayTeam='Chelsea'),
+            dict(Div='E0', Date='18/10/2026', Time='14:00', HomeTeam='Brighton', AwayTeam='Crystal Palace'),
+            dict(Div='E0', Date='19/10/2026', Time='20:00', HomeTeam='Tottenham', AwayTeam='Coventry')]), 2026)
+        games = pd.concat([games, new_games], ignore_index=True)
+        empty = pd.DataFrame(columns=['game_id', 'gameday', 'gametime', 'p_home', 'prediction_timestamp'])
+        first, _ = pl.make_outputs(games, pl.fit_model(games, pl.ROOT), empty,
+                                    pd.Timestamp('2026-10-16T08:00Z'))
+        archive = first['historical_predictions.csv']
+        # The following week's game must not freeze early with this week's ratings.
+        self.assertEqual(set(archive.game_id), {'2026_Everton_Chelsea', '2026_Brighton_Crystal Palace'})
+        games.loc[games.game_id.eq('2026_Everton_Chelsea'), ['home_score', 'away_score']] = [0., 2.]
+        games.loc[games.game_id.eq('2026_Brighton_Crystal Palace'), ['home_score', 'away_score']] = [5., 0.]
+        # Exercise the live loader as well as the calculation: past results must survive refresh.
+        with patch.object(pl.pd, 'read_csv', return_value=games[games.gameday.le('2026-10-12')]), \
+                patch.object(pl, 'load_current_season', return_value=games[games.season.eq(2026)]):
+            refreshed, metadata = pl.load_games(pl.ROOT / 'data', pd.Timestamp('2026-10-18T20:00Z'))
+        self.assertEqual(metadata['latest_result_date'], '2026-10-18')
+        second, _ = pl.make_outputs(refreshed, pl.fit_model(refreshed, pl.ROOT), archive,
+                                     pd.Timestamp('2026-10-18T20:00Z'))
+        pd.testing.assert_frame_equal(archive, second['historical_predictions.csv'])
+        old = first['current_elo_rankings.csv'].set_index('team')
+        new = second['current_elo_rankings.csv'].set_index('team')
+        self.assertGreater(new.loc['Brighton', 'elo'], old.loc['Brighton', 'elo'])
+        self.assertLess(new.loc['Crystal Palace', 'elo'], old.loc['Crystal Palace', 'elo'])
+        self.assertGreater(new.loc['Chelsea', 'elo'], old.loc['Chelsea', 'elo'])
+        weekly = second['weekly_projections.csv'].set_index('game_id')
+        self.assertEqual(weekly.loc['2026_Brighton_Crystal Palace', 'result'], 'HOME')
+        self.assertEqual(weekly.loc['2026_Brighton_Crystal Palace', 'p_home'],
+                         archive.set_index('game_id').loc['2026_Brighton_Crystal Palace', 'p_home'])
 
     def test_unknown_kickoff_is_not_archived(self):
         frame = pd.DataFrame([dict(game_id='unknown', gameday='2026-10-24', gametime='00:00', p_home=.6)])

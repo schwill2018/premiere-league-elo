@@ -11,7 +11,7 @@ python -m pip install -r requirements.txt
 python premier_league_elo.py
 ```
 
-Current-season results and upcoming fixtures come from [Football-Data.co.uk](https://www.football-data.co.uk/englandm.php). Completed historical seasons are reused from `data/premier_league_matches.csv`. Failed downloads stop publication. `run_metadata.json` distinguishes fetch time from the latest result date: successful fetching does not guarantee that the provider has posted every recent result.
+Current-season results and fixtures come directly from the [Premier League's FPL feed](https://fantasy.premierleague.com/api/fixtures/). Full-time results update ratings on every daily run; live scores are excluded. The feed's `finished_provisional` flag means the match has ended while FPL's points review is pending, and is sufficient for a result. Completed historical seasons from [Football-Data.co.uk](https://www.football-data.co.uk/englandm.php) are reused from `data/premier_league_matches.csv`. Failed downloads stop publication. `run_metadata.json` records the fetch time and latest result date.
 
 `python premier_league_elo.py --offline` explicitly rebuilds exports from saved data, marks the run offline, and does not record live forecasts. Use this for verification, not scheduled publishing. `--output-dir` can select a separate directory containing copies of `model_settings.json` and `elo_parameters.csv`; `--data-dir` selects the snapshot directory.
 
@@ -37,9 +37,9 @@ The supplied 2008-2026 parameter selections were extracted at full precision fro
 | `elo_parameters.csv` | Selected seasonal parameters |
 | `run_metadata.json` | Freshness and diagnostic metrics |
 
-Rankings refresh daily. Forecasts remain unchanged unless a participating team's Elo/rank or scheduled kickoff changes before kickoff. Forecasts lock after kickoff. Completed games remain visible for their calendar week with the original forecast and updated result. A game without a genuine pregame forecast has blank prediction fields; forecasts are never backfilled after results. Kickoff times are interpreted in Europe/London; missing times are excluded from the forecast archive.
+Rankings refresh daily using all completed results. Weekly predictions are recorded once before kickoff and stay fixed even as rankings change. New fixtures are added when available before kickoff; later weeks are not archived early. Completed games remain visible for their calendar week with the original forecast and updated result. A game without a genuine pregame forecast has blank prediction fields; forecasts are never backfilled after results. Daily and future projection exports use the latest ratings. Kickoff times are interpreted in Europe/London; missing times are excluded from the forecast archive.
 
-The provider's fixture feed covers nearby fixtures, not necessarily a full week or season. New fixtures appear as the source publishes them. The week field is an ISO calendar week, not an official Premier League matchweek.
+The league feed supplies the current season's schedule. Fixtures without a confirmed kickoff are excluded until scheduled. The week field is an ISO calendar week, not an official Premier League matchweek.
 
 `p_home` and `p_away` are expected Elo result scores (win=1, draw=0.5, loss=0), **not three-way win probabilities**. The notebook's accuracy/log-loss diagnostics exclude draws. Historical backtests and deployed performance must be displayed separately, not pooled. Historical records cover seasons before the current season. Deployed records begin when this pipeline first records forecasts and persist across season boundaries. No deployed performance is claimed for earlier games.
 

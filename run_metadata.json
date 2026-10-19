@@ -1,10 +1,10 @@
 {
-  "downloaded_at": "2026-10-19T03:31:16.894160+01:00",
-  "source": "https://www.football-data.co.uk/englandm.php",
+  "downloaded_at": "2026-10-19T21:03:02.229929+01:00",
+  "source": "https://fantasy.premierleague.com/api/fixtures/",
   "fixtures_source": "https://www.football-data.co.uk/fixtures.csv",
   "fixtures_status": "downloaded",
-  "latest_result_date": "2026-10-12",
-  "completed_matches": 8800,
+  "latest_result_date": "2026-10-18",
+  "completed_matches": 8809,
   "season_counts": {
     "2003": 380,
     "2004": 380,
@@ -29,17 +29,19 @@
     "2023": 380,
     "2024": 380,
     "2025": 380,
-    "2026": 60
+    "2026": 69
   },
-  "generated_at": "2026-10-19T20:09:57.712302+01:00",
+  "historical_source": "https://www.football-data.co.uk/englandm.php",
+  "results_refresh_method": "Nine full-time results verified in official feed via browser; existing saved schedule retained",
+  "generated_at": "2026-10-19T21:03:04.663868+01:00",
   "offline": true,
   "current_season": 2026,
   "metrics": {
-    "notebook_diagnostic_accuracy": 0.7079578139980824,
-    "notebook_diagnostic_logloss": 0.565636565112149,
-    "notebook_diagnostic_games": 5215,
-    "draws_excluded_from_binary_diagnostic": 1685,
-    "production_margin_slope": 0.7280874255391215,
+    "notebook_diagnostic_accuracy": 0.7078307486119089,
+    "notebook_diagnostic_logloss": 0.5655026267013431,
+    "notebook_diagnostic_games": 5223,
+    "draws_excluded_from_binary_diagnostic": 1686,
+    "production_margin_slope": 0.7280875029282482,
     "deployed_scored_games": 0
   },
   "prediction_meaning": "Expected result score: win=1, draw=0.5, loss=0; not three-way win probability"

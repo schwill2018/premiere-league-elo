@@ -8799,4 +8799,13 @@ gameday,gametime,season,home_team,away_team,home_score,away_score,location,game_
 2026-10-11,14:00,2026,Hull,Everton,2.0,2.0,Home,PL,2026-W41,2026_Hull_Everton,True
 2026-10-11,16:30,2026,Liverpool,Man City,0.0,3.0,Home,PL,2026-W41,2026_Liverpool_Man City,True
 2026-10-12,20:00,2026,Coventry,Newcastle,4.0,1.0,Home,PL,2026-W42,2026_Coventry_Newcastle,True
+2026-10-17,12:30,2026,Everton,Chelsea,0.0,2.0,Home,PL,2026-W42,2026_Everton_Chelsea,True
+2026-10-17,15:00,2026,Brentford,Liverpool,1.0,2.0,Home,PL,2026-W42,2026_Brentford_Liverpool,True
+2026-10-17,15:00,2026,Fulham,Hull,1.0,0.0,Home,PL,2026-W42,2026_Fulham_Hull,True
+2026-10-17,15:00,2026,Man City,Ipswich,3.0,2.0,Home,PL,2026-W42,2026_Man City_Ipswich,True
+2026-10-17,17:30,2026,Newcastle,Aston Villa,0.0,1.0,Home,PL,2026-W42,2026_Newcastle_Aston Villa,True
+2026-10-18,14:00,2026,Bournemouth,Sunderland,2.0,0.0,Home,PL,2026-W42,2026_Bournemouth_Sunderland,True
+2026-10-18,14:00,2026,Brighton,Crystal Palace,5.0,0.0,Home,PL,2026-W42,2026_Brighton_Crystal Palace,True
+2026-10-18,14:00,2026,Leeds,Man United,1.0,1.0,Home,PL,2026-W42,2026_Leeds_Man United,True
+2026-10-18,16:30,2026,Nott'm Forest,Arsenal,0.0,1.0,Home,PL,2026-W42,2026_Nott'm Forest_Arsenal,True
 2026-10-19,20:00,2026,Tottenham,Coventry,,,Home,PL,2026-W43,2026_Tottenham_Coventry,False
