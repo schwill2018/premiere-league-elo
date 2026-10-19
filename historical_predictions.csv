@@ -1,1 +1,1 @@
-game_id,gameday,gametime,p_home,prediction_timestamp
+game_id,gameday,gametime,p_home,prediction_timestamp,as_of_date,season,week,away_team,home_team,away_rank,home_rank,away_elo,home_elo,p_away,elo_home_margin,model_home_spread
