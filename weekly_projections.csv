@@ -1,0 +1,2 @@
+gameday,gametime,season,home_team,away_team,home_score,away_score,location,game_type,week,game_id,completed,as_of_date,away_rank,home_rank,away_elo,home_elo,p_away,p_home,elo_home_margin,model_home_spread,result
+2026-10-19,20:00,2026,Tottenham,Coventry,,,Home,PL,2026-W43,2026_Tottenham_Coventry,False,,,,,,,,,,TBD

@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.env
+*.tmp
+*.log
+# Retain old local work, but publish only the authoritative notebook/pipeline.
+Premier_League_elo_v3.ipynb
+pl_data.py
+verify_full_notebook.py
+pl_current_elo_rankings.csv
+pl_daily_projections.csv
+pl_weekly_projections.csv
+pl_future_projections.csv
+data/seasons/
