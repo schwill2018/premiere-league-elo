@@ -31,15 +31,15 @@
     "2025": 380,
     "2026": 69
   },
-  "generated_at": "2026-10-19T21:13:47.412904+01:00",
-  "offline": false,
+  "generated_at": "2026-10-19T21:40:56.957705+01:00",
+  "offline": true,
   "current_season": 2026,
   "metrics": {
     "notebook_diagnostic_accuracy": 0.7078307486119089,
     "notebook_diagnostic_logloss": 0.5655026267013431,
     "notebook_diagnostic_games": 5223,
     "draws_excluded_from_binary_diagnostic": 1686,
-    "production_margin_slope": 0.7280875029282482,
+    "production_margin_slope": 0.7283451363667883,
     "deployed_scored_games": 0
   },
   "prediction_meaning": "Expected result score: win=1, draw=0.5, loss=0; not three-way win probability"

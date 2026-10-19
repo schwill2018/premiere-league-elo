@@ -8739,383 +8739,383 @@ gameday,gametime,season,home_team,away_team,home_score,away_score,location,game_
 2026-05-24,16:00,2025,Sunderland,Chelsea,2.0,1.0,Home,PL,2026-W21,2025_Sunderland_Chelsea,True
 2026-05-24,16:00,2025,Tottenham,Everton,1.0,0.0,Home,PL,2026-W21,2025_Tottenham_Everton,True
 2026-05-24,16:00,2025,West Ham,Leeds,3.0,0.0,Home,PL,2026-W21,2025_West Ham_Leeds,True
-2026-08-21,20:00,2026,Arsenal,Coventry,3.0,0.0,Home,PL,2026-W34,2026_Arsenal_Coventry,True
-2026-08-22,12:30,2026,Hull,Man United,2.0,0.0,Home,PL,2026-W34,2026_Hull_Man United,True
-2026-08-22,15:00,2026,Everton,Crystal Palace,2.0,0.0,Home,PL,2026-W34,2026_Everton_Crystal Palace,True
-2026-08-22,15:00,2026,Ipswich,Sunderland,2.0,1.0,Home,PL,2026-W34,2026_Ipswich_Sunderland,True
-2026-08-22,15:00,2026,Nott'm Forest,Leeds,0.0,1.0,Home,PL,2026-W34,2026_Nott'm Forest_Leeds,True
-2026-08-22,17:30,2026,Brentford,Tottenham,3.0,0.0,Home,PL,2026-W34,2026_Brentford_Tottenham,True
-2026-08-23,14:00,2026,Brighton,Aston Villa,4.0,0.0,Home,PL,2026-W34,2026_Brighton_Aston Villa,True
-2026-08-23,14:00,2026,Man City,Bournemouth,2.0,1.0,Home,PL,2026-W34,2026_Man City_Bournemouth,True
-2026-08-23,16:30,2026,Newcastle,Liverpool,2.0,2.0,Home,PL,2026-W34,2026_Newcastle_Liverpool,True
-2026-08-24,20:00,2026,Fulham,Chelsea,2.0,3.0,Home,PL,2026-W35,2026_Fulham_Chelsea,True
-2026-08-28,20:00,2026,Crystal Palace,Man City,1.0,4.0,Home,PL,2026-W35,2026_Crystal Palace_Man City,True
-2026-08-29,12:30,2026,Liverpool,Nott'm Forest,2.0,2.0,Home,PL,2026-W35,2026_Liverpool_Nott'm Forest,True
-2026-08-29,15:00,2026,Bournemouth,Everton,1.0,1.0,Home,PL,2026-W35,2026_Bournemouth_Everton,True
-2026-08-29,15:00,2026,Coventry,Hull,0.0,1.0,Home,PL,2026-W35,2026_Coventry_Hull,True
-2026-08-29,17:30,2026,Tottenham,Newcastle,0.0,2.0,Home,PL,2026-W35,2026_Tottenham_Newcastle,True
-2026-08-30,14:00,2026,Chelsea,Brighton,4.0,3.0,Home,PL,2026-W35,2026_Chelsea_Brighton,True
-2026-08-30,14:00,2026,Leeds,Brentford,1.0,1.0,Home,PL,2026-W35,2026_Leeds_Brentford,True
-2026-08-30,14:00,2026,Sunderland,Fulham,1.0,0.0,Home,PL,2026-W35,2026_Sunderland_Fulham,True
-2026-08-30,16:30,2026,Man United,Ipswich,5.0,2.0,Home,PL,2026-W35,2026_Man United_Ipswich,True
-2026-08-31,20:00,2026,Aston Villa,Arsenal,0.0,1.0,Home,PL,2026-W36,2026_Aston Villa_Arsenal,True
-2026-09-04,20:00,2026,Ipswich,Liverpool,0.0,2.0,Home,PL,2026-W36,2026_Ipswich_Liverpool,True
-2026-09-05,12:30,2026,Newcastle,Bournemouth,2.0,2.0,Home,PL,2026-W36,2026_Newcastle_Bournemouth,True
-2026-09-05,15:00,2026,Brentford,Sunderland,1.0,1.0,Home,PL,2026-W36,2026_Brentford_Sunderland,True
-2026-09-05,15:00,2026,Brighton,Leeds,1.0,1.0,Home,PL,2026-W36,2026_Brighton_Leeds,True
-2026-09-05,15:00,2026,Fulham,Crystal Palace,2.0,3.0,Home,PL,2026-W36,2026_Fulham_Crystal Palace,True
-2026-09-05,15:00,2026,Man City,Coventry,1.0,0.0,Home,PL,2026-W36,2026_Man City_Coventry,True
-2026-09-05,15:00,2026,Nott'm Forest,Tottenham,0.0,0.0,Home,PL,2026-W36,2026_Nott'm Forest_Tottenham,True
-2026-09-05,17:30,2026,Hull,Aston Villa,0.0,0.0,Home,PL,2026-W36,2026_Hull_Aston Villa,True
-2026-09-06,14:00,2026,Everton,Man United,2.0,2.0,Home,PL,2026-W36,2026_Everton_Man United,True
-2026-09-06,16:30,2026,Arsenal,Chelsea,2.0,1.0,Home,PL,2026-W36,2026_Arsenal_Chelsea,True
-2026-09-12,15:00,2026,Aston Villa,Nott'm Forest,1.0,2.0,Home,PL,2026-W37,2026_Aston Villa_Nott'm Forest,True
-2026-09-12,15:00,2026,Bournemouth,Brentford,2.0,2.0,Home,PL,2026-W37,2026_Bournemouth_Brentford,True
-2026-09-12,15:00,2026,Chelsea,Hull,2.0,2.0,Home,PL,2026-W37,2026_Chelsea_Hull,True
-2026-09-12,15:00,2026,Crystal Palace,Ipswich,2.0,3.0,Home,PL,2026-W37,2026_Crystal Palace_Ipswich,True
-2026-09-12,15:00,2026,Liverpool,Fulham,0.0,0.0,Home,PL,2026-W37,2026_Liverpool_Fulham,True
-2026-09-12,17:30,2026,Tottenham,Everton,0.0,0.0,Home,PL,2026-W37,2026_Tottenham_Everton,True
-2026-09-12,20:00,2026,Sunderland,Arsenal,0.0,2.0,Home,PL,2026-W37,2026_Sunderland_Arsenal,True
-2026-09-13,14:00,2026,Coventry,Brighton,0.0,5.0,Home,PL,2026-W37,2026_Coventry_Brighton,True
-2026-09-13,16:30,2026,Man United,Man City,0.0,1.0,Home,PL,2026-W37,2026_Man United_Man City,True
-2026-09-14,20:00,2026,Leeds,Newcastle,4.0,1.0,Home,PL,2026-W38,2026_Leeds_Newcastle,True
-2026-09-18,20:00,2026,Brentford,Chelsea,3.0,0.0,Home,PL,2026-W38,2026_Brentford_Chelsea,True
-2026-09-19,12:30,2026,Tottenham,Aston Villa,2.0,3.0,Home,PL,2026-W38,2026_Tottenham_Aston Villa,True
-2026-09-19,15:00,2026,Brighton,Arsenal,3.0,0.0,Home,PL,2026-W38,2026_Brighton_Arsenal,True
-2026-09-19,15:00,2026,Everton,Ipswich,1.0,0.0,Home,PL,2026-W38,2026_Everton_Ipswich,True
-2026-09-19,15:00,2026,Newcastle,Hull,2.0,1.0,Home,PL,2026-W38,2026_Newcastle_Hull,True
-2026-09-19,17:30,2026,Nott'm Forest,Coventry,0.0,1.0,Home,PL,2026-W38,2026_Nott'm Forest_Coventry,True
-2026-09-20,14:00,2026,Bournemouth,Liverpool,0.0,1.0,Home,PL,2026-W38,2026_Bournemouth_Liverpool,True
-2026-09-20,14:00,2026,Leeds,Crystal Palace,0.0,0.0,Home,PL,2026-W38,2026_Leeds_Crystal Palace,True
-2026-09-20,14:00,2026,Man City,Sunderland,5.0,3.0,Home,PL,2026-W38,2026_Man City_Sunderland,True
-2026-09-20,16:30,2026,Fulham,Man United,1.0,1.0,Home,PL,2026-W38,2026_Fulham_Man United,True
-2026-10-10,12:30,2026,Arsenal,Leeds,2.0,1.0,Home,PL,2026-W41,2026_Arsenal_Leeds,True
-2026-10-10,15:00,2026,Aston Villa,Brentford,2.0,2.0,Home,PL,2026-W41,2026_Aston Villa_Brentford,True
-2026-10-10,15:00,2026,Chelsea,Bournemouth,5.0,1.0,Home,PL,2026-W41,2026_Chelsea_Bournemouth,True
-2026-10-10,15:00,2026,Ipswich,Fulham,2.0,1.0,Home,PL,2026-W41,2026_Ipswich_Fulham,True
-2026-10-10,15:00,2026,Sunderland,Brighton,0.0,2.0,Home,PL,2026-W41,2026_Sunderland_Brighton,True
-2026-10-10,17:30,2026,Man United,Tottenham,1.0,1.0,Home,PL,2026-W41,2026_Man United_Tottenham,True
-2026-10-11,14:00,2026,Crystal Palace,Nott'm Forest,3.0,1.0,Home,PL,2026-W41,2026_Crystal Palace_Nott'm Forest,True
-2026-10-11,14:00,2026,Hull,Everton,2.0,2.0,Home,PL,2026-W41,2026_Hull_Everton,True
-2026-10-11,16:30,2026,Liverpool,Man City,0.0,3.0,Home,PL,2026-W41,2026_Liverpool_Man City,True
-2026-10-12,20:00,2026,Coventry,Newcastle,4.0,1.0,Home,PL,2026-W42,2026_Coventry_Newcastle,True
-2026-10-17,12:30,2026,Everton,Chelsea,0.0,2.0,Home,PL,2026-W42,2026_Everton_Chelsea,True
-2026-10-17,15:00,2026,Brentford,Liverpool,1.0,2.0,Home,PL,2026-W42,2026_Brentford_Liverpool,True
-2026-10-17,15:00,2026,Fulham,Hull,1.0,0.0,Home,PL,2026-W42,2026_Fulham_Hull,True
-2026-10-17,15:00,2026,Man City,Ipswich,3.0,2.0,Home,PL,2026-W42,2026_Man City_Ipswich,True
-2026-10-17,17:30,2026,Newcastle,Aston Villa,0.0,1.0,Home,PL,2026-W42,2026_Newcastle_Aston Villa,True
-2026-10-18,14:00,2026,Bournemouth,Sunderland,2.0,0.0,Home,PL,2026-W42,2026_Bournemouth_Sunderland,True
-2026-10-18,14:00,2026,Brighton,Crystal Palace,5.0,0.0,Home,PL,2026-W42,2026_Brighton_Crystal Palace,True
-2026-10-18,14:00,2026,Leeds,Man United,1.0,1.0,Home,PL,2026-W42,2026_Leeds_Man United,True
-2026-10-18,16:30,2026,Nott'm Forest,Arsenal,0.0,1.0,Home,PL,2026-W42,2026_Nott'm Forest_Arsenal,True
-2026-10-19,20:00,2026,Tottenham,Coventry,,,Home,PL,2026-W43,2026_Tottenham_Coventry,False
-2026-10-23,20:00,2026,Ipswich,Nott'm Forest,,,Home,PL,2026-W43,2026_Ipswich_Nott'm Forest,False
-2026-10-24,12:30,2026,Aston Villa,Man City,,,Home,PL,2026-W43,2026_Aston Villa_Man City,False
-2026-10-24,15:00,2026,Arsenal,Everton,,,Home,PL,2026-W43,2026_Arsenal_Everton,False
-2026-10-24,15:00,2026,Coventry,Fulham,,,Home,PL,2026-W43,2026_Coventry_Fulham,False
-2026-10-24,17:30,2026,Chelsea,Tottenham,,,Home,PL,2026-W43,2026_Chelsea_Tottenham,False
-2026-10-25,14:00,2026,Crystal Palace,Newcastle,,,Home,PL,2026-W43,2026_Crystal Palace_Newcastle,False
-2026-10-25,14:00,2026,Hull,Brentford,,,Home,PL,2026-W43,2026_Hull_Brentford,False
-2026-10-25,14:00,2026,Liverpool,Brighton,,,Home,PL,2026-W43,2026_Liverpool_Brighton,False
-2026-10-25,14:00,2026,Man United,Bournemouth,,,Home,PL,2026-W43,2026_Man United_Bournemouth,False
-2026-10-25,16:30,2026,Sunderland,Leeds,,,Home,PL,2026-W43,2026_Sunderland_Leeds,False
-2026-10-31,12:30,2026,Chelsea,Man United,,,Home,PL,2026-W44,2026_Chelsea_Man United,False
-2026-10-31,15:00,2026,Bournemouth,Leeds,,,Home,PL,2026-W44,2026_Bournemouth_Leeds,False
-2026-10-31,15:00,2026,Brentford,Nott'm Forest,,,Home,PL,2026-W44,2026_Brentford_Nott'm Forest,False
-2026-10-31,15:00,2026,Coventry,Sunderland,,,Home,PL,2026-W44,2026_Coventry_Sunderland,False
-2026-10-31,15:00,2026,Hull,Ipswich,,,Home,PL,2026-W44,2026_Hull_Ipswich,False
-2026-10-31,15:00,2026,Man City,Brighton,,,Home,PL,2026-W44,2026_Man City_Brighton,False
-2026-10-31,17:30,2026,Tottenham,Crystal Palace,,,Home,PL,2026-W44,2026_Tottenham_Crystal Palace,False
-2026-10-31,20:00,2026,Aston Villa,Fulham,,,Home,PL,2026-W44,2026_Aston Villa_Fulham,False
-2026-11-01,16:30,2026,Liverpool,Arsenal,,,Home,PL,2026-W44,2026_Liverpool_Arsenal,False
-2026-11-02,20:00,2026,Newcastle,Everton,,,Home,PL,2026-W45,2026_Newcastle_Everton,False
-2026-11-06,20:00,2026,Everton,Coventry,,,Home,PL,2026-W45,2026_Everton_Coventry,False
-2026-11-07,12:30,2026,Leeds,Tottenham,,,Home,PL,2026-W45,2026_Leeds_Tottenham,False
-2026-11-07,15:00,2026,Arsenal,Hull,,,Home,PL,2026-W45,2026_Arsenal_Hull,False
-2026-11-07,15:00,2026,Fulham,Newcastle,,,Home,PL,2026-W45,2026_Fulham_Newcastle,False
-2026-11-07,17:30,2026,Nott'm Forest,Man City,,,Home,PL,2026-W45,2026_Nott'm Forest_Man City,False
-2026-11-08,14:00,2026,Brighton,Brentford,,,Home,PL,2026-W45,2026_Brighton_Brentford,False
-2026-11-08,14:00,2026,Crystal Palace,Liverpool,,,Home,PL,2026-W45,2026_Crystal Palace_Liverpool,False
-2026-11-08,14:00,2026,Ipswich,Bournemouth,,,Home,PL,2026-W45,2026_Ipswich_Bournemouth,False
-2026-11-08,14:00,2026,Sunderland,Chelsea,,,Home,PL,2026-W45,2026_Sunderland_Chelsea,False
-2026-11-08,16:30,2026,Man United,Aston Villa,,,Home,PL,2026-W45,2026_Man United_Aston Villa,False
-2026-11-21,12:30,2026,Man City,Fulham,,,Home,PL,2026-W47,2026_Man City_Fulham,False
-2026-11-21,15:00,2026,Aston Villa,Sunderland,,,Home,PL,2026-W47,2026_Aston Villa_Sunderland,False
-2026-11-21,15:00,2026,Bournemouth,Nott'm Forest,,,Home,PL,2026-W47,2026_Bournemouth_Nott'm Forest,False
-2026-11-21,15:00,2026,Chelsea,Leeds,,,Home,PL,2026-W47,2026_Chelsea_Leeds,False
-2026-11-21,15:00,2026,Coventry,Crystal Palace,,,Home,PL,2026-W47,2026_Coventry_Crystal Palace,False
-2026-11-21,15:00,2026,Tottenham,Ipswich,,,Home,PL,2026-W47,2026_Tottenham_Ipswich,False
-2026-11-21,17:30,2026,Newcastle,Arsenal,,,Home,PL,2026-W47,2026_Newcastle_Arsenal,False
-2026-11-22,14:00,2026,Hull,Brighton,,,Home,PL,2026-W47,2026_Hull_Brighton,False
-2026-11-22,16:30,2026,Liverpool,Man United,,,Home,PL,2026-W47,2026_Liverpool_Man United,False
-2026-11-23,20:00,2026,Brentford,Everton,,,Home,PL,2026-W48,2026_Brentford_Everton,False
-2026-11-27,20:00,2026,Nott'm Forest,Chelsea,,,Home,PL,2026-W48,2026_Nott'm Forest_Chelsea,False
-2026-11-28,15:00,2026,Leeds,Coventry,,,Home,PL,2026-W48,2026_Leeds_Coventry,False
-2026-11-28,15:00,2026,Man United,Brentford,,,Home,PL,2026-W48,2026_Man United_Brentford,False
-2026-11-28,17:30,2026,Ipswich,Aston Villa,,,Home,PL,2026-W48,2026_Ipswich_Aston Villa,False
-2026-11-29,12:00,2026,Everton,Liverpool,,,Home,PL,2026-W48,2026_Everton_Liverpool,False
-2026-11-29,14:05,2026,Brighton,Newcastle,,,Home,PL,2026-W48,2026_Brighton_Newcastle,False
-2026-11-29,14:05,2026,Crystal Palace,Hull,,,Home,PL,2026-W48,2026_Crystal Palace_Hull,False
-2026-11-29,14:05,2026,Fulham,Bournemouth,,,Home,PL,2026-W48,2026_Fulham_Bournemouth,False
-2026-11-29,14:05,2026,Sunderland,Tottenham,,,Home,PL,2026-W48,2026_Sunderland_Tottenham,False
-2026-11-29,16:30,2026,Arsenal,Man City,,,Home,PL,2026-W48,2026_Arsenal_Man City,False
-2026-12-01,20:00,2026,Coventry,Ipswich,,,Home,PL,2026-W49,2026_Coventry_Ipswich,False
-2026-12-02,19:30,2026,Chelsea,Crystal Palace,,,Home,PL,2026-W49,2026_Chelsea_Crystal Palace,False
-2026-12-02,19:30,2026,Hull,Nott'm Forest,,,Home,PL,2026-W49,2026_Hull_Nott'm Forest,False
-2026-12-02,19:30,2026,Liverpool,Sunderland,,,Home,PL,2026-W49,2026_Liverpool_Sunderland,False
-2026-12-02,19:30,2026,Man City,Leeds,,,Home,PL,2026-W49,2026_Man City_Leeds,False
-2026-12-02,20:15,2026,Aston Villa,Everton,,,Home,PL,2026-W49,2026_Aston Villa_Everton,False
-2026-12-02,20:15,2026,Bournemouth,Brighton,,,Home,PL,2026-W49,2026_Bournemouth_Brighton,False
-2026-12-02,20:15,2026,Brentford,Arsenal,,,Home,PL,2026-W49,2026_Brentford_Arsenal,False
-2026-12-02,20:15,2026,Newcastle,Man United,,,Home,PL,2026-W49,2026_Newcastle_Man United,False
-2026-12-03,20:00,2026,Tottenham,Fulham,,,Home,PL,2026-W49,2026_Tottenham_Fulham,False
-2026-12-05,12:30,2026,Chelsea,Liverpool,,,Home,PL,2026-W49,2026_Chelsea_Liverpool,False
-2026-12-05,15:00,2026,Aston Villa,Crystal Palace,,,Home,PL,2026-W49,2026_Aston Villa_Crystal Palace,False
-2026-12-05,15:00,2026,Bournemouth,Hull,,,Home,PL,2026-W49,2026_Bournemouth_Hull,False
-2026-12-05,15:00,2026,Leeds,Ipswich,,,Home,PL,2026-W49,2026_Leeds_Ipswich,False
-2026-12-05,15:00,2026,Man United,Coventry,,,Home,PL,2026-W49,2026_Man United_Coventry,False
-2026-12-05,17:30,2026,Nott'm Forest,Brighton,,,Home,PL,2026-W49,2026_Nott'm Forest_Brighton,False
-2026-12-05,20:00,2026,Brentford,Man City,,,Home,PL,2026-W49,2026_Brentford_Man City,False
-2026-12-06,14:00,2026,Everton,Fulham,,,Home,PL,2026-W49,2026_Everton_Fulham,False
-2026-12-06,14:00,2026,Newcastle,Sunderland,,,Home,PL,2026-W49,2026_Newcastle_Sunderland,False
-2026-12-06,16:30,2026,Tottenham,Arsenal,,,Home,PL,2026-W49,2026_Tottenham_Arsenal,False
-2026-12-12,15:00,2026,Fulham,Brentford,,,Home,PL,2026-W50,2026_Fulham_Brentford,False
-2026-12-12,15:00,2026,Ipswich,Newcastle,,,Home,PL,2026-W50,2026_Ipswich_Newcastle,False
-2026-12-12,15:00,2026,Liverpool,Leeds,,,Home,PL,2026-W50,2026_Liverpool_Leeds,False
-2026-12-12,17:30,2026,Man City,Chelsea,,,Home,PL,2026-W50,2026_Man City_Chelsea,False
-2026-12-13,14:00,2026,Arsenal,Bournemouth,,,Home,PL,2026-W50,2026_Arsenal_Bournemouth,False
-2026-12-13,14:00,2026,Brighton,Everton,,,Home,PL,2026-W50,2026_Brighton_Everton,False
-2026-12-13,14:00,2026,Sunderland,Nott'm Forest,,,Home,PL,2026-W50,2026_Sunderland_Nott'm Forest,False
-2026-12-13,16:30,2026,Coventry,Aston Villa,,,Home,PL,2026-W50,2026_Coventry_Aston Villa,False
-2026-12-13,19:00,2026,Crystal Palace,Man United,,,Home,PL,2026-W50,2026_Crystal Palace_Man United,False
-2026-12-14,20:00,2026,Hull,Tottenham,,,Home,PL,2026-W51,2026_Hull_Tottenham,False
-2026-12-19,12:30,2026,Brentford,Newcastle,,,Home,PL,2026-W51,2026_Brentford_Newcastle,False
-2026-12-19,15:00,2026,Bournemouth,Coventry,,,Home,PL,2026-W51,2026_Bournemouth_Coventry,False
-2026-12-19,15:00,2026,Leeds,Fulham,,,Home,PL,2026-W51,2026_Leeds_Fulham,False
-2026-12-19,15:00,2026,Man City,Hull,,,Home,PL,2026-W51,2026_Man City_Hull,False
-2026-12-19,15:00,2026,Nott'm Forest,Everton,,,Home,PL,2026-W51,2026_Nott'm Forest_Everton,False
-2026-12-19,17:30,2026,Liverpool,Tottenham,,,Home,PL,2026-W51,2026_Liverpool_Tottenham,False
-2026-12-20,14:00,2026,Brighton,Ipswich,,,Home,PL,2026-W51,2026_Brighton_Ipswich,False
-2026-12-20,14:00,2026,Sunderland,Crystal Palace,,,Home,PL,2026-W51,2026_Sunderland_Crystal Palace,False
-2026-12-20,16:30,2026,Arsenal,Man United,,,Home,PL,2026-W51,2026_Arsenal_Man United,False
-2026-12-21,20:00,2026,Chelsea,Aston Villa,,,Home,PL,2026-W52,2026_Chelsea_Aston Villa,False
-2026-12-26,12:30,2026,Aston Villa,Leeds,,,Home,PL,2026-W52,2026_Aston Villa_Leeds,False
-2026-12-26,15:00,2026,Everton,Sunderland,,,Home,PL,2026-W52,2026_Everton_Sunderland,False
-2026-12-26,15:00,2026,Fulham,Brighton,,,Home,PL,2026-W52,2026_Fulham_Brighton,False
-2026-12-26,15:00,2026,Ipswich,Brentford,,,Home,PL,2026-W52,2026_Ipswich_Brentford,False
-2026-12-26,15:00,2026,Tottenham,Bournemouth,,,Home,PL,2026-W52,2026_Tottenham_Bournemouth,False
-2026-12-26,17:30,2026,Hull,Liverpool,,,Home,PL,2026-W52,2026_Hull_Liverpool,False
-2026-12-26,20:00,2026,Newcastle,Man City,,,Home,PL,2026-W52,2026_Newcastle_Man City,False
-2026-12-27,14:00,2026,Coventry,Chelsea,,,Home,PL,2026-W52,2026_Coventry_Chelsea,False
-2026-12-27,16:30,2026,Man United,Nott'm Forest,,,Home,PL,2026-W52,2026_Man United_Nott'm Forest,False
-2026-12-27,19:00,2026,Crystal Palace,Arsenal,,,Home,PL,2026-W52,2026_Crystal Palace_Arsenal,False
-2026-12-29,19:30,2026,Hull,Leeds,,,Home,PL,2026-W53,2026_Hull_Leeds,False
-2026-12-29,19:30,2026,Tottenham,Brighton,,,Home,PL,2026-W53,2026_Tottenham_Brighton,False
-2026-12-29,20:15,2026,Everton,Man City,,,Home,PL,2026-W53,2026_Everton_Man City,False
-2026-12-30,19:30,2026,Coventry,Brentford,,,Home,PL,2026-W53,2026_Coventry_Brentford,False
-2026-12-30,19:30,2026,Crystal Palace,Bournemouth,,,Home,PL,2026-W53,2026_Crystal Palace_Bournemouth,False
-2026-12-30,19:30,2026,Fulham,Arsenal,,,Home,PL,2026-W53,2026_Fulham_Arsenal,False
-2026-12-30,19:30,2026,Man United,Sunderland,,,Home,PL,2026-W53,2026_Man United_Sunderland,False
-2026-12-30,19:30,2026,Newcastle,Nott'm Forest,,,Home,PL,2026-W53,2026_Newcastle_Nott'm Forest,False
-2026-12-30,20:15,2026,Aston Villa,Liverpool,,,Home,PL,2026-W53,2026_Aston Villa_Liverpool,False
-2026-12-30,20:15,2026,Ipswich,Chelsea,,,Home,PL,2026-W53,2026_Ipswich_Chelsea,False
-2027-01-01,20:00,2026,Leeds,Everton,,,Home,PL,2026-W53,2026_Leeds_Everton,False
-2027-01-02,12:30,2026,Brighton,Man United,,,Home,PL,2026-W53,2026_Brighton_Man United,False
-2027-01-02,15:00,2026,Arsenal,Ipswich,,,Home,PL,2026-W53,2026_Arsenal_Ipswich,False
-2027-01-02,15:00,2026,Brentford,Crystal Palace,,,Home,PL,2026-W53,2026_Brentford_Crystal Palace,False
-2027-01-02,15:00,2026,Liverpool,Coventry,,,Home,PL,2026-W53,2026_Liverpool_Coventry,False
-2027-01-02,15:00,2026,Nott'm Forest,Fulham,,,Home,PL,2026-W53,2026_Nott'm Forest_Fulham,False
-2027-01-02,15:00,2026,Sunderland,Hull,,,Home,PL,2026-W53,2026_Sunderland_Hull,False
-2027-01-02,17:30,2026,Bournemouth,Aston Villa,,,Home,PL,2026-W53,2026_Bournemouth_Aston Villa,False
-2027-01-03,14:00,2026,Chelsea,Newcastle,,,Home,PL,2026-W53,2026_Chelsea_Newcastle,False
-2027-01-03,16:30,2026,Man City,Tottenham,,,Home,PL,2026-W53,2026_Man City_Tottenham,False
-2027-01-05,19:30,2026,Arsenal,Brentford,,,Home,PL,2027-W01,2026_Arsenal_Brentford,False
-2027-01-05,19:30,2026,Brighton,Bournemouth,,,Home,PL,2027-W01,2026_Brighton_Bournemouth,False
-2027-01-05,19:30,2026,Everton,Aston Villa,,,Home,PL,2027-W01,2026_Everton_Aston Villa,False
-2027-01-05,19:30,2026,Nott'm Forest,Hull,,,Home,PL,2027-W01,2026_Nott'm Forest_Hull,False
-2027-01-05,20:15,2026,Sunderland,Liverpool,,,Home,PL,2027-W01,2026_Sunderland_Liverpool,False
-2027-01-06,19:30,2026,Crystal Palace,Chelsea,,,Home,PL,2027-W01,2026_Crystal Palace_Chelsea,False
-2027-01-06,19:30,2026,Fulham,Tottenham,,,Home,PL,2027-W01,2026_Fulham_Tottenham,False
-2027-01-06,19:30,2026,Ipswich,Coventry,,,Home,PL,2027-W01,2026_Ipswich_Coventry,False
-2027-01-06,20:15,2026,Leeds,Man City,,,Home,PL,2027-W01,2026_Leeds_Man City,False
-2027-01-07,20:00,2026,Man United,Newcastle,,,Home,PL,2027-W01,2026_Man United_Newcastle,False
-2027-01-16,15:00,2026,Aston Villa,Man United,,,Home,PL,2027-W02,2026_Aston Villa_Man United,False
-2027-01-16,15:00,2026,Bournemouth,Ipswich,,,Home,PL,2027-W02,2026_Bournemouth_Ipswich,False
-2027-01-16,15:00,2026,Brentford,Brighton,,,Home,PL,2027-W02,2026_Brentford_Brighton,False
-2027-01-16,15:00,2026,Chelsea,Sunderland,,,Home,PL,2027-W02,2026_Chelsea_Sunderland,False
-2027-01-16,15:00,2026,Coventry,Everton,,,Home,PL,2027-W02,2026_Coventry_Everton,False
-2027-01-16,15:00,2026,Hull,Arsenal,,,Home,PL,2027-W02,2026_Hull_Arsenal,False
-2027-01-16,15:00,2026,Liverpool,Crystal Palace,,,Home,PL,2027-W02,2026_Liverpool_Crystal Palace,False
-2027-01-16,15:00,2026,Man City,Nott'm Forest,,,Home,PL,2027-W02,2026_Man City_Nott'm Forest,False
-2027-01-16,15:00,2026,Newcastle,Fulham,,,Home,PL,2027-W02,2026_Newcastle_Fulham,False
-2027-01-16,15:00,2026,Tottenham,Leeds,,,Home,PL,2027-W02,2026_Tottenham_Leeds,False
-2027-01-23,15:00,2026,Arsenal,Newcastle,,,Home,PL,2027-W03,2026_Arsenal_Newcastle,False
-2027-01-23,15:00,2026,Brighton,Man City,,,Home,PL,2027-W03,2026_Brighton_Man City,False
-2027-01-23,15:00,2026,Crystal Palace,Tottenham,,,Home,PL,2027-W03,2026_Crystal Palace_Tottenham,False
-2027-01-23,15:00,2026,Everton,Brentford,,,Home,PL,2027-W03,2026_Everton_Brentford,False
-2027-01-23,15:00,2026,Fulham,Aston Villa,,,Home,PL,2027-W03,2026_Fulham_Aston Villa,False
-2027-01-23,15:00,2026,Ipswich,Hull,,,Home,PL,2027-W03,2026_Ipswich_Hull,False
-2027-01-23,15:00,2026,Leeds,Chelsea,,,Home,PL,2027-W03,2026_Leeds_Chelsea,False
-2027-01-23,15:00,2026,Man United,Liverpool,,,Home,PL,2027-W03,2026_Man United_Liverpool,False
-2027-01-23,15:00,2026,Nott'm Forest,Bournemouth,,,Home,PL,2027-W03,2026_Nott'm Forest_Bournemouth,False
-2027-01-23,15:00,2026,Sunderland,Coventry,,,Home,PL,2027-W03,2026_Sunderland_Coventry,False
-2027-01-30,15:00,2026,Aston Villa,Ipswich,,,Home,PL,2027-W04,2026_Aston Villa_Ipswich,False
-2027-01-30,15:00,2026,Bournemouth,Fulham,,,Home,PL,2027-W04,2026_Bournemouth_Fulham,False
-2027-01-30,15:00,2026,Brentford,Man United,,,Home,PL,2027-W04,2026_Brentford_Man United,False
-2027-01-30,15:00,2026,Chelsea,Nott'm Forest,,,Home,PL,2027-W04,2026_Chelsea_Nott'm Forest,False
-2027-01-30,15:00,2026,Coventry,Leeds,,,Home,PL,2027-W04,2026_Coventry_Leeds,False
-2027-01-30,15:00,2026,Hull,Crystal Palace,,,Home,PL,2027-W04,2026_Hull_Crystal Palace,False
-2027-01-30,15:00,2026,Liverpool,Everton,,,Home,PL,2027-W04,2026_Liverpool_Everton,False
-2027-01-30,15:00,2026,Man City,Arsenal,,,Home,PL,2027-W04,2026_Man City_Arsenal,False
-2027-01-30,15:00,2026,Newcastle,Brighton,,,Home,PL,2027-W04,2026_Newcastle_Brighton,False
-2027-01-30,15:00,2026,Tottenham,Sunderland,,,Home,PL,2027-W04,2026_Tottenham_Sunderland,False
-2027-02-06,15:00,2026,Arsenal,Liverpool,,,Home,PL,2027-W05,2026_Arsenal_Liverpool,False
-2027-02-06,15:00,2026,Brighton,Hull,,,Home,PL,2027-W05,2026_Brighton_Hull,False
-2027-02-06,15:00,2026,Crystal Palace,Coventry,,,Home,PL,2027-W05,2026_Crystal Palace_Coventry,False
-2027-02-06,15:00,2026,Everton,Newcastle,,,Home,PL,2027-W05,2026_Everton_Newcastle,False
-2027-02-06,15:00,2026,Fulham,Man City,,,Home,PL,2027-W05,2026_Fulham_Man City,False
-2027-02-06,15:00,2026,Ipswich,Tottenham,,,Home,PL,2027-W05,2026_Ipswich_Tottenham,False
-2027-02-06,15:00,2026,Leeds,Bournemouth,,,Home,PL,2027-W05,2026_Leeds_Bournemouth,False
-2027-02-06,15:00,2026,Man United,Chelsea,,,Home,PL,2027-W05,2026_Man United_Chelsea,False
-2027-02-06,15:00,2026,Nott'm Forest,Brentford,,,Home,PL,2027-W05,2026_Nott'm Forest_Brentford,False
-2027-02-06,15:00,2026,Sunderland,Aston Villa,,,Home,PL,2027-W05,2026_Sunderland_Aston Villa,False
-2027-02-10,20:00,2026,Aston Villa,Bournemouth,,,Home,PL,2027-W06,2026_Aston Villa_Bournemouth,False
-2027-02-10,20:00,2026,Coventry,Liverpool,,,Home,PL,2027-W06,2026_Coventry_Liverpool,False
-2027-02-10,20:00,2026,Crystal Palace,Brentford,,,Home,PL,2027-W06,2026_Crystal Palace_Brentford,False
-2027-02-10,20:00,2026,Everton,Leeds,,,Home,PL,2027-W06,2026_Everton_Leeds,False
-2027-02-10,20:00,2026,Fulham,Nott'm Forest,,,Home,PL,2027-W06,2026_Fulham_Nott'm Forest,False
-2027-02-10,20:00,2026,Hull,Sunderland,,,Home,PL,2027-W06,2026_Hull_Sunderland,False
-2027-02-10,20:00,2026,Ipswich,Arsenal,,,Home,PL,2027-W06,2026_Ipswich_Arsenal,False
-2027-02-10,20:00,2026,Man United,Brighton,,,Home,PL,2027-W06,2026_Man United_Brighton,False
-2027-02-10,20:00,2026,Newcastle,Chelsea,,,Home,PL,2027-W06,2026_Newcastle_Chelsea,False
-2027-02-10,20:00,2026,Tottenham,Man City,,,Home,PL,2027-W06,2026_Tottenham_Man City,False
-2027-02-20,15:00,2026,Arsenal,Fulham,,,Home,PL,2027-W07,2026_Arsenal_Fulham,False
-2027-02-20,15:00,2026,Bournemouth,Crystal Palace,,,Home,PL,2027-W07,2026_Bournemouth_Crystal Palace,False
-2027-02-20,15:00,2026,Brentford,Coventry,,,Home,PL,2027-W07,2026_Brentford_Coventry,False
-2027-02-20,15:00,2026,Brighton,Tottenham,,,Home,PL,2027-W07,2026_Brighton_Tottenham,False
-2027-02-20,15:00,2026,Chelsea,Ipswich,,,Home,PL,2027-W07,2026_Chelsea_Ipswich,False
-2027-02-20,15:00,2026,Leeds,Aston Villa,,,Home,PL,2027-W07,2026_Leeds_Aston Villa,False
-2027-02-20,15:00,2026,Liverpool,Hull,,,Home,PL,2027-W07,2026_Liverpool_Hull,False
-2027-02-20,15:00,2026,Man City,Newcastle,,,Home,PL,2027-W07,2026_Man City_Newcastle,False
-2027-02-20,15:00,2026,Nott'm Forest,Man United,,,Home,PL,2027-W07,2026_Nott'm Forest_Man United,False
-2027-02-20,15:00,2026,Sunderland,Everton,,,Home,PL,2027-W07,2026_Sunderland_Everton,False
-2027-02-27,15:00,2026,Aston Villa,Chelsea,,,Home,PL,2027-W08,2026_Aston Villa_Chelsea,False
-2027-02-27,15:00,2026,Coventry,Bournemouth,,,Home,PL,2027-W08,2026_Coventry_Bournemouth,False
-2027-02-27,15:00,2026,Crystal Palace,Sunderland,,,Home,PL,2027-W08,2026_Crystal Palace_Sunderland,False
-2027-02-27,15:00,2026,Everton,Nott'm Forest,,,Home,PL,2027-W08,2026_Everton_Nott'm Forest,False
-2027-02-27,15:00,2026,Fulham,Leeds,,,Home,PL,2027-W08,2026_Fulham_Leeds,False
-2027-02-27,15:00,2026,Hull,Man City,,,Home,PL,2027-W08,2026_Hull_Man City,False
-2027-02-27,15:00,2026,Ipswich,Brighton,,,Home,PL,2027-W08,2026_Ipswich_Brighton,False
-2027-02-27,15:00,2026,Man United,Arsenal,,,Home,PL,2027-W08,2026_Man United_Arsenal,False
-2027-02-27,15:00,2026,Newcastle,Brentford,,,Home,PL,2027-W08,2026_Newcastle_Brentford,False
-2027-02-27,15:00,2026,Tottenham,Liverpool,,,Home,PL,2027-W08,2026_Tottenham_Liverpool,False
-2027-03-03,20:00,2026,Arsenal,Crystal Palace,,,Home,PL,2027-W09,2026_Arsenal_Crystal Palace,False
-2027-03-03,20:00,2026,Bournemouth,Tottenham,,,Home,PL,2027-W09,2026_Bournemouth_Tottenham,False
-2027-03-03,20:00,2026,Brentford,Ipswich,,,Home,PL,2027-W09,2026_Brentford_Ipswich,False
-2027-03-03,20:00,2026,Brighton,Fulham,,,Home,PL,2027-W09,2026_Brighton_Fulham,False
-2027-03-03,20:00,2026,Chelsea,Coventry,,,Home,PL,2027-W09,2026_Chelsea_Coventry,False
-2027-03-03,20:00,2026,Leeds,Hull,,,Home,PL,2027-W09,2026_Leeds_Hull,False
-2027-03-03,20:00,2026,Liverpool,Aston Villa,,,Home,PL,2027-W09,2026_Liverpool_Aston Villa,False
-2027-03-03,20:00,2026,Man City,Everton,,,Home,PL,2027-W09,2026_Man City_Everton,False
-2027-03-03,20:00,2026,Nott'm Forest,Newcastle,,,Home,PL,2027-W09,2026_Nott'm Forest_Newcastle,False
-2027-03-03,20:00,2026,Sunderland,Man United,,,Home,PL,2027-W09,2026_Sunderland_Man United,False
-2027-03-13,15:00,2026,Aston Villa,Hull,,,Home,PL,2027-W10,2026_Aston Villa_Hull,False
-2027-03-13,15:00,2026,Bournemouth,Newcastle,,,Home,PL,2027-W10,2026_Bournemouth_Newcastle,False
-2027-03-13,15:00,2026,Chelsea,Arsenal,,,Home,PL,2027-W10,2026_Chelsea_Arsenal,False
-2027-03-13,15:00,2026,Coventry,Man City,,,Home,PL,2027-W10,2026_Coventry_Man City,False
-2027-03-13,15:00,2026,Crystal Palace,Fulham,,,Home,PL,2027-W10,2026_Crystal Palace_Fulham,False
-2027-03-13,15:00,2026,Leeds,Brighton,,,Home,PL,2027-W10,2026_Leeds_Brighton,False
-2027-03-13,15:00,2026,Liverpool,Ipswich,,,Home,PL,2027-W10,2026_Liverpool_Ipswich,False
-2027-03-13,15:00,2026,Man United,Everton,,,Home,PL,2027-W10,2026_Man United_Everton,False
-2027-03-13,15:00,2026,Sunderland,Brentford,,,Home,PL,2027-W10,2026_Sunderland_Brentford,False
-2027-03-13,15:00,2026,Tottenham,Nott'm Forest,,,Home,PL,2027-W10,2026_Tottenham_Nott'm Forest,False
-2027-03-20,15:00,2026,Arsenal,Sunderland,,,Home,PL,2027-W11,2026_Arsenal_Sunderland,False
-2027-03-20,15:00,2026,Brentford,Bournemouth,,,Home,PL,2027-W11,2026_Brentford_Bournemouth,False
-2027-03-20,15:00,2026,Brighton,Coventry,,,Home,PL,2027-W11,2026_Brighton_Coventry,False
-2027-03-20,15:00,2026,Everton,Tottenham,,,Home,PL,2027-W11,2026_Everton_Tottenham,False
-2027-03-20,15:00,2026,Fulham,Liverpool,,,Home,PL,2027-W11,2026_Fulham_Liverpool,False
-2027-03-20,15:00,2026,Hull,Chelsea,,,Home,PL,2027-W11,2026_Hull_Chelsea,False
-2027-03-20,15:00,2026,Ipswich,Crystal Palace,,,Home,PL,2027-W11,2026_Ipswich_Crystal Palace,False
-2027-03-20,15:00,2026,Man City,Man United,,,Home,PL,2027-W11,2026_Man City_Man United,False
-2027-03-20,15:00,2026,Newcastle,Leeds,,,Home,PL,2027-W11,2026_Newcastle_Leeds,False
-2027-03-20,15:00,2026,Nott'm Forest,Aston Villa,,,Home,PL,2027-W11,2026_Nott'm Forest_Aston Villa,False
-2027-04-10,15:00,2026,Aston Villa,Brighton,,,Home,PL,2027-W14,2026_Aston Villa_Brighton,False
-2027-04-10,15:00,2026,Bournemouth,Man City,,,Home,PL,2027-W14,2026_Bournemouth_Man City,False
-2027-04-10,15:00,2026,Chelsea,Fulham,,,Home,PL,2027-W14,2026_Chelsea_Fulham,False
-2027-04-10,15:00,2026,Coventry,Arsenal,,,Home,PL,2027-W14,2026_Coventry_Arsenal,False
-2027-04-10,15:00,2026,Crystal Palace,Everton,,,Home,PL,2027-W14,2026_Crystal Palace_Everton,False
-2027-04-10,15:00,2026,Leeds,Nott'm Forest,,,Home,PL,2027-W14,2026_Leeds_Nott'm Forest,False
-2027-04-10,15:00,2026,Liverpool,Newcastle,,,Home,PL,2027-W14,2026_Liverpool_Newcastle,False
-2027-04-10,15:00,2026,Man United,Hull,,,Home,PL,2027-W14,2026_Man United_Hull,False
-2027-04-10,15:00,2026,Sunderland,Ipswich,,,Home,PL,2027-W14,2026_Sunderland_Ipswich,False
-2027-04-10,15:00,2026,Tottenham,Brentford,,,Home,PL,2027-W14,2026_Tottenham_Brentford,False
-2027-04-17,15:00,2026,Arsenal,Aston Villa,,,Home,PL,2027-W15,2026_Arsenal_Aston Villa,False
-2027-04-17,15:00,2026,Brentford,Leeds,,,Home,PL,2027-W15,2026_Brentford_Leeds,False
-2027-04-17,15:00,2026,Brighton,Chelsea,,,Home,PL,2027-W15,2026_Brighton_Chelsea,False
-2027-04-17,15:00,2026,Everton,Bournemouth,,,Home,PL,2027-W15,2026_Everton_Bournemouth,False
-2027-04-17,15:00,2026,Fulham,Sunderland,,,Home,PL,2027-W15,2026_Fulham_Sunderland,False
-2027-04-17,15:00,2026,Hull,Coventry,,,Home,PL,2027-W15,2026_Hull_Coventry,False
-2027-04-17,15:00,2026,Ipswich,Man United,,,Home,PL,2027-W15,2026_Ipswich_Man United,False
-2027-04-17,15:00,2026,Man City,Crystal Palace,,,Home,PL,2027-W15,2026_Man City_Crystal Palace,False
-2027-04-17,15:00,2026,Newcastle,Tottenham,,,Home,PL,2027-W15,2026_Newcastle_Tottenham,False
-2027-04-17,15:00,2026,Nott'm Forest,Liverpool,,,Home,PL,2027-W15,2026_Nott'm Forest_Liverpool,False
-2027-04-24,15:00,2026,Aston Villa,Coventry,,,Home,PL,2027-W16,2026_Aston Villa_Coventry,False
-2027-04-24,15:00,2026,Bournemouth,Arsenal,,,Home,PL,2027-W16,2026_Bournemouth_Arsenal,False
-2027-04-24,15:00,2026,Brentford,Fulham,,,Home,PL,2027-W16,2026_Brentford_Fulham,False
-2027-04-24,15:00,2026,Chelsea,Man City,,,Home,PL,2027-W16,2026_Chelsea_Man City,False
-2027-04-24,15:00,2026,Everton,Brighton,,,Home,PL,2027-W16,2026_Everton_Brighton,False
-2027-04-24,15:00,2026,Leeds,Liverpool,,,Home,PL,2027-W16,2026_Leeds_Liverpool,False
-2027-04-24,15:00,2026,Man United,Crystal Palace,,,Home,PL,2027-W16,2026_Man United_Crystal Palace,False
-2027-04-24,15:00,2026,Newcastle,Ipswich,,,Home,PL,2027-W16,2026_Newcastle_Ipswich,False
-2027-04-24,15:00,2026,Nott'm Forest,Sunderland,,,Home,PL,2027-W16,2026_Nott'm Forest_Sunderland,False
-2027-04-24,15:00,2026,Tottenham,Hull,,,Home,PL,2027-W16,2026_Tottenham_Hull,False
-2027-05-01,15:00,2026,Arsenal,Tottenham,,,Home,PL,2027-W17,2026_Arsenal_Tottenham,False
-2027-05-01,15:00,2026,Brighton,Nott'm Forest,,,Home,PL,2027-W17,2026_Brighton_Nott'm Forest,False
-2027-05-01,15:00,2026,Coventry,Man United,,,Home,PL,2027-W17,2026_Coventry_Man United,False
-2027-05-01,15:00,2026,Crystal Palace,Aston Villa,,,Home,PL,2027-W17,2026_Crystal Palace_Aston Villa,False
-2027-05-01,15:00,2026,Fulham,Everton,,,Home,PL,2027-W17,2026_Fulham_Everton,False
-2027-05-01,15:00,2026,Hull,Bournemouth,,,Home,PL,2027-W17,2026_Hull_Bournemouth,False
-2027-05-01,15:00,2026,Ipswich,Leeds,,,Home,PL,2027-W17,2026_Ipswich_Leeds,False
-2027-05-01,15:00,2026,Liverpool,Chelsea,,,Home,PL,2027-W17,2026_Liverpool_Chelsea,False
-2027-05-01,15:00,2026,Man City,Brentford,,,Home,PL,2027-W17,2026_Man City_Brentford,False
-2027-05-01,15:00,2026,Sunderland,Newcastle,,,Home,PL,2027-W17,2026_Sunderland_Newcastle,False
-2027-05-08,15:00,2026,Bournemouth,Man United,,,Home,PL,2027-W18,2026_Bournemouth_Man United,False
-2027-05-08,15:00,2026,Brentford,Aston Villa,,,Home,PL,2027-W18,2026_Brentford_Aston Villa,False
-2027-05-08,15:00,2026,Brighton,Sunderland,,,Home,PL,2027-W18,2026_Brighton_Sunderland,False
-2027-05-08,15:00,2026,Everton,Hull,,,Home,PL,2027-W18,2026_Everton_Hull,False
-2027-05-08,15:00,2026,Fulham,Ipswich,,,Home,PL,2027-W18,2026_Fulham_Ipswich,False
-2027-05-08,15:00,2026,Leeds,Arsenal,,,Home,PL,2027-W18,2026_Leeds_Arsenal,False
-2027-05-08,15:00,2026,Man City,Liverpool,,,Home,PL,2027-W18,2026_Man City_Liverpool,False
-2027-05-08,15:00,2026,Newcastle,Coventry,,,Home,PL,2027-W18,2026_Newcastle_Coventry,False
-2027-05-08,15:00,2026,Nott'm Forest,Crystal Palace,,,Home,PL,2027-W18,2026_Nott'm Forest_Crystal Palace,False
-2027-05-08,15:00,2026,Tottenham,Chelsea,,,Home,PL,2027-W18,2026_Tottenham_Chelsea,False
-2027-05-15,15:00,2026,Arsenal,Nott'm Forest,,,Home,PL,2027-W19,2026_Arsenal_Nott'm Forest,False
-2027-05-15,15:00,2026,Aston Villa,Newcastle,,,Home,PL,2027-W19,2026_Aston Villa_Newcastle,False
-2027-05-15,15:00,2026,Chelsea,Everton,,,Home,PL,2027-W19,2026_Chelsea_Everton,False
-2027-05-15,15:00,2026,Coventry,Tottenham,,,Home,PL,2027-W19,2026_Coventry_Tottenham,False
-2027-05-15,15:00,2026,Crystal Palace,Brighton,,,Home,PL,2027-W19,2026_Crystal Palace_Brighton,False
-2027-05-15,15:00,2026,Hull,Fulham,,,Home,PL,2027-W19,2026_Hull_Fulham,False
-2027-05-15,15:00,2026,Ipswich,Man City,,,Home,PL,2027-W19,2026_Ipswich_Man City,False
-2027-05-15,15:00,2026,Liverpool,Brentford,,,Home,PL,2027-W19,2026_Liverpool_Brentford,False
-2027-05-15,15:00,2026,Man United,Leeds,,,Home,PL,2027-W19,2026_Man United_Leeds,False
-2027-05-15,15:00,2026,Sunderland,Bournemouth,,,Home,PL,2027-W19,2026_Sunderland_Bournemouth,False
-2027-05-23,15:00,2026,Bournemouth,Chelsea,,,Home,PL,2027-W20,2026_Bournemouth_Chelsea,False
-2027-05-23,15:00,2026,Brentford,Hull,,,Home,PL,2027-W20,2026_Brentford_Hull,False
-2027-05-23,15:00,2026,Brighton,Liverpool,,,Home,PL,2027-W20,2026_Brighton_Liverpool,False
-2027-05-23,15:00,2026,Everton,Arsenal,,,Home,PL,2027-W20,2026_Everton_Arsenal,False
-2027-05-23,15:00,2026,Fulham,Coventry,,,Home,PL,2027-W20,2026_Fulham_Coventry,False
-2027-05-23,15:00,2026,Leeds,Sunderland,,,Home,PL,2027-W20,2026_Leeds_Sunderland,False
-2027-05-23,15:00,2026,Man City,Aston Villa,,,Home,PL,2027-W20,2026_Man City_Aston Villa,False
-2027-05-23,15:00,2026,Newcastle,Crystal Palace,,,Home,PL,2027-W20,2026_Newcastle_Crystal Palace,False
-2027-05-23,15:00,2026,Nott'm Forest,Ipswich,,,Home,PL,2027-W20,2026_Nott'm Forest_Ipswich,False
-2027-05-23,15:00,2026,Tottenham,Man United,,,Home,PL,2027-W20,2026_Tottenham_Man United,False
-2027-05-30,16:00,2026,Arsenal,Brighton,,,Home,PL,2027-W21,2026_Arsenal_Brighton,False
-2027-05-30,16:00,2026,Aston Villa,Tottenham,,,Home,PL,2027-W21,2026_Aston Villa_Tottenham,False
-2027-05-30,16:00,2026,Chelsea,Brentford,,,Home,PL,2027-W21,2026_Chelsea_Brentford,False
-2027-05-30,16:00,2026,Coventry,Nott'm Forest,,,Home,PL,2027-W21,2026_Coventry_Nott'm Forest,False
-2027-05-30,16:00,2026,Crystal Palace,Leeds,,,Home,PL,2027-W21,2026_Crystal Palace_Leeds,False
-2027-05-30,16:00,2026,Hull,Newcastle,,,Home,PL,2027-W21,2026_Hull_Newcastle,False
-2027-05-30,16:00,2026,Ipswich,Everton,,,Home,PL,2027-W21,2026_Ipswich_Everton,False
-2027-05-30,16:00,2026,Liverpool,Bournemouth,,,Home,PL,2027-W21,2026_Liverpool_Bournemouth,False
-2027-05-30,16:00,2026,Man United,Fulham,,,Home,PL,2027-W21,2026_Man United_Fulham,False
-2027-05-30,16:00,2026,Sunderland,Man City,,,Home,PL,2027-W21,2026_Sunderland_Man City,False
+2026-08-21,20:00,2026,Arsenal,Coventry,3.0,0.0,Home,PL,1,2026_Arsenal_Coventry,True
+2026-08-22,12:30,2026,Hull,Man United,2.0,0.0,Home,PL,1,2026_Hull_Man United,True
+2026-08-22,15:00,2026,Everton,Crystal Palace,2.0,0.0,Home,PL,1,2026_Everton_Crystal Palace,True
+2026-08-22,15:00,2026,Ipswich,Sunderland,2.0,1.0,Home,PL,1,2026_Ipswich_Sunderland,True
+2026-08-22,15:00,2026,Nott'm Forest,Leeds,0.0,1.0,Home,PL,1,2026_Nott'm Forest_Leeds,True
+2026-08-22,17:30,2026,Brentford,Tottenham,3.0,0.0,Home,PL,1,2026_Brentford_Tottenham,True
+2026-08-23,14:00,2026,Brighton,Aston Villa,4.0,0.0,Home,PL,1,2026_Brighton_Aston Villa,True
+2026-08-23,14:00,2026,Man City,Bournemouth,2.0,1.0,Home,PL,1,2026_Man City_Bournemouth,True
+2026-08-23,16:30,2026,Newcastle,Liverpool,2.0,2.0,Home,PL,1,2026_Newcastle_Liverpool,True
+2026-08-24,20:00,2026,Fulham,Chelsea,2.0,3.0,Home,PL,1,2026_Fulham_Chelsea,True
+2026-08-28,20:00,2026,Crystal Palace,Man City,1.0,4.0,Home,PL,2,2026_Crystal Palace_Man City,True
+2026-08-29,12:30,2026,Liverpool,Nott'm Forest,2.0,2.0,Home,PL,2,2026_Liverpool_Nott'm Forest,True
+2026-08-29,15:00,2026,Bournemouth,Everton,1.0,1.0,Home,PL,2,2026_Bournemouth_Everton,True
+2026-08-29,15:00,2026,Coventry,Hull,0.0,1.0,Home,PL,2,2026_Coventry_Hull,True
+2026-08-29,17:30,2026,Tottenham,Newcastle,0.0,2.0,Home,PL,2,2026_Tottenham_Newcastle,True
+2026-08-30,14:00,2026,Chelsea,Brighton,4.0,3.0,Home,PL,2,2026_Chelsea_Brighton,True
+2026-08-30,14:00,2026,Leeds,Brentford,1.0,1.0,Home,PL,2,2026_Leeds_Brentford,True
+2026-08-30,14:00,2026,Sunderland,Fulham,1.0,0.0,Home,PL,2,2026_Sunderland_Fulham,True
+2026-08-30,16:30,2026,Man United,Ipswich,5.0,2.0,Home,PL,2,2026_Man United_Ipswich,True
+2026-08-31,20:00,2026,Aston Villa,Arsenal,0.0,1.0,Home,PL,2,2026_Aston Villa_Arsenal,True
+2026-09-04,20:00,2026,Ipswich,Liverpool,0.0,2.0,Home,PL,3,2026_Ipswich_Liverpool,True
+2026-09-05,12:30,2026,Newcastle,Bournemouth,2.0,2.0,Home,PL,3,2026_Newcastle_Bournemouth,True
+2026-09-05,15:00,2026,Brentford,Sunderland,1.0,1.0,Home,PL,3,2026_Brentford_Sunderland,True
+2026-09-05,15:00,2026,Brighton,Leeds,1.0,1.0,Home,PL,3,2026_Brighton_Leeds,True
+2026-09-05,15:00,2026,Fulham,Crystal Palace,2.0,3.0,Home,PL,3,2026_Fulham_Crystal Palace,True
+2026-09-05,15:00,2026,Man City,Coventry,1.0,0.0,Home,PL,3,2026_Man City_Coventry,True
+2026-09-05,15:00,2026,Nott'm Forest,Tottenham,0.0,0.0,Home,PL,3,2026_Nott'm Forest_Tottenham,True
+2026-09-05,17:30,2026,Hull,Aston Villa,0.0,0.0,Home,PL,3,2026_Hull_Aston Villa,True
+2026-09-06,14:00,2026,Everton,Man United,2.0,2.0,Home,PL,3,2026_Everton_Man United,True
+2026-09-06,16:30,2026,Arsenal,Chelsea,2.0,1.0,Home,PL,3,2026_Arsenal_Chelsea,True
+2026-09-12,15:00,2026,Aston Villa,Nott'm Forest,1.0,2.0,Home,PL,4,2026_Aston Villa_Nott'm Forest,True
+2026-09-12,15:00,2026,Bournemouth,Brentford,2.0,2.0,Home,PL,4,2026_Bournemouth_Brentford,True
+2026-09-12,15:00,2026,Chelsea,Hull,2.0,2.0,Home,PL,4,2026_Chelsea_Hull,True
+2026-09-12,15:00,2026,Crystal Palace,Ipswich,2.0,3.0,Home,PL,4,2026_Crystal Palace_Ipswich,True
+2026-09-12,15:00,2026,Liverpool,Fulham,0.0,0.0,Home,PL,4,2026_Liverpool_Fulham,True
+2026-09-12,17:30,2026,Tottenham,Everton,0.0,0.0,Home,PL,4,2026_Tottenham_Everton,True
+2026-09-12,20:00,2026,Sunderland,Arsenal,0.0,2.0,Home,PL,4,2026_Sunderland_Arsenal,True
+2026-09-13,14:00,2026,Coventry,Brighton,0.0,5.0,Home,PL,4,2026_Coventry_Brighton,True
+2026-09-13,16:30,2026,Man United,Man City,0.0,1.0,Home,PL,4,2026_Man United_Man City,True
+2026-09-14,20:00,2026,Leeds,Newcastle,4.0,1.0,Home,PL,4,2026_Leeds_Newcastle,True
+2026-09-18,20:00,2026,Brentford,Chelsea,3.0,0.0,Home,PL,5,2026_Brentford_Chelsea,True
+2026-09-19,12:30,2026,Tottenham,Aston Villa,2.0,3.0,Home,PL,5,2026_Tottenham_Aston Villa,True
+2026-09-19,15:00,2026,Brighton,Arsenal,3.0,0.0,Home,PL,5,2026_Brighton_Arsenal,True
+2026-09-19,15:00,2026,Everton,Ipswich,1.0,0.0,Home,PL,5,2026_Everton_Ipswich,True
+2026-09-19,15:00,2026,Newcastle,Hull,2.0,1.0,Home,PL,5,2026_Newcastle_Hull,True
+2026-09-19,17:30,2026,Nott'm Forest,Coventry,0.0,1.0,Home,PL,5,2026_Nott'm Forest_Coventry,True
+2026-09-20,14:00,2026,Bournemouth,Liverpool,0.0,1.0,Home,PL,5,2026_Bournemouth_Liverpool,True
+2026-09-20,14:00,2026,Leeds,Crystal Palace,0.0,0.0,Home,PL,5,2026_Leeds_Crystal Palace,True
+2026-09-20,14:00,2026,Man City,Sunderland,5.0,3.0,Home,PL,5,2026_Man City_Sunderland,True
+2026-09-20,16:30,2026,Fulham,Man United,1.0,1.0,Home,PL,5,2026_Fulham_Man United,True
+2026-10-10,12:30,2026,Arsenal,Leeds,2.0,1.0,Home,PL,6,2026_Arsenal_Leeds,True
+2026-10-10,15:00,2026,Aston Villa,Brentford,2.0,2.0,Home,PL,6,2026_Aston Villa_Brentford,True
+2026-10-10,15:00,2026,Chelsea,Bournemouth,5.0,1.0,Home,PL,6,2026_Chelsea_Bournemouth,True
+2026-10-10,15:00,2026,Ipswich,Fulham,2.0,1.0,Home,PL,6,2026_Ipswich_Fulham,True
+2026-10-10,15:00,2026,Sunderland,Brighton,0.0,2.0,Home,PL,6,2026_Sunderland_Brighton,True
+2026-10-10,17:30,2026,Man United,Tottenham,1.0,1.0,Home,PL,6,2026_Man United_Tottenham,True
+2026-10-11,14:00,2026,Crystal Palace,Nott'm Forest,3.0,1.0,Home,PL,6,2026_Crystal Palace_Nott'm Forest,True
+2026-10-11,14:00,2026,Hull,Everton,2.0,2.0,Home,PL,6,2026_Hull_Everton,True
+2026-10-11,16:30,2026,Liverpool,Man City,0.0,3.0,Home,PL,6,2026_Liverpool_Man City,True
+2026-10-12,20:00,2026,Coventry,Newcastle,4.0,1.0,Home,PL,6,2026_Coventry_Newcastle,True
+2026-10-17,12:30,2026,Everton,Chelsea,0.0,2.0,Home,PL,7,2026_Everton_Chelsea,True
+2026-10-17,15:00,2026,Brentford,Liverpool,1.0,2.0,Home,PL,7,2026_Brentford_Liverpool,True
+2026-10-17,15:00,2026,Fulham,Hull,1.0,0.0,Home,PL,7,2026_Fulham_Hull,True
+2026-10-17,15:00,2026,Man City,Ipswich,3.0,2.0,Home,PL,7,2026_Man City_Ipswich,True
+2026-10-17,17:30,2026,Newcastle,Aston Villa,0.0,1.0,Home,PL,7,2026_Newcastle_Aston Villa,True
+2026-10-18,14:00,2026,Bournemouth,Sunderland,2.0,0.0,Home,PL,7,2026_Bournemouth_Sunderland,True
+2026-10-18,14:00,2026,Brighton,Crystal Palace,5.0,0.0,Home,PL,7,2026_Brighton_Crystal Palace,True
+2026-10-18,14:00,2026,Leeds,Man United,1.0,1.0,Home,PL,7,2026_Leeds_Man United,True
+2026-10-18,16:30,2026,Nott'm Forest,Arsenal,0.0,1.0,Home,PL,7,2026_Nott'm Forest_Arsenal,True
+2026-10-19,20:00,2026,Tottenham,Coventry,,,Home,PL,7,2026_Tottenham_Coventry,False
+2026-10-23,20:00,2026,Ipswich,Nott'm Forest,,,Home,PL,8,2026_Ipswich_Nott'm Forest,False
+2026-10-24,12:30,2026,Aston Villa,Man City,,,Home,PL,8,2026_Aston Villa_Man City,False
+2026-10-24,15:00,2026,Arsenal,Everton,,,Home,PL,8,2026_Arsenal_Everton,False
+2026-10-24,15:00,2026,Coventry,Fulham,,,Home,PL,8,2026_Coventry_Fulham,False
+2026-10-24,17:30,2026,Chelsea,Tottenham,,,Home,PL,8,2026_Chelsea_Tottenham,False
+2026-10-25,14:00,2026,Crystal Palace,Newcastle,,,Home,PL,8,2026_Crystal Palace_Newcastle,False
+2026-10-25,14:00,2026,Hull,Brentford,,,Home,PL,8,2026_Hull_Brentford,False
+2026-10-25,14:00,2026,Liverpool,Brighton,,,Home,PL,8,2026_Liverpool_Brighton,False
+2026-10-25,14:00,2026,Man United,Bournemouth,,,Home,PL,8,2026_Man United_Bournemouth,False
+2026-10-25,16:30,2026,Sunderland,Leeds,,,Home,PL,8,2026_Sunderland_Leeds,False
+2026-10-31,12:30,2026,Chelsea,Man United,,,Home,PL,9,2026_Chelsea_Man United,False
+2026-10-31,15:00,2026,Bournemouth,Leeds,,,Home,PL,9,2026_Bournemouth_Leeds,False
+2026-10-31,15:00,2026,Brentford,Nott'm Forest,,,Home,PL,9,2026_Brentford_Nott'm Forest,False
+2026-10-31,15:00,2026,Coventry,Sunderland,,,Home,PL,9,2026_Coventry_Sunderland,False
+2026-10-31,15:00,2026,Hull,Ipswich,,,Home,PL,9,2026_Hull_Ipswich,False
+2026-10-31,15:00,2026,Man City,Brighton,,,Home,PL,9,2026_Man City_Brighton,False
+2026-10-31,17:30,2026,Tottenham,Crystal Palace,,,Home,PL,9,2026_Tottenham_Crystal Palace,False
+2026-10-31,20:00,2026,Aston Villa,Fulham,,,Home,PL,9,2026_Aston Villa_Fulham,False
+2026-11-01,16:30,2026,Liverpool,Arsenal,,,Home,PL,9,2026_Liverpool_Arsenal,False
+2026-11-02,20:00,2026,Newcastle,Everton,,,Home,PL,9,2026_Newcastle_Everton,False
+2026-11-06,20:00,2026,Everton,Coventry,,,Home,PL,10,2026_Everton_Coventry,False
+2026-11-07,12:30,2026,Leeds,Tottenham,,,Home,PL,10,2026_Leeds_Tottenham,False
+2026-11-07,15:00,2026,Arsenal,Hull,,,Home,PL,10,2026_Arsenal_Hull,False
+2026-11-07,15:00,2026,Fulham,Newcastle,,,Home,PL,10,2026_Fulham_Newcastle,False
+2026-11-07,17:30,2026,Nott'm Forest,Man City,,,Home,PL,10,2026_Nott'm Forest_Man City,False
+2026-11-08,14:00,2026,Brighton,Brentford,,,Home,PL,10,2026_Brighton_Brentford,False
+2026-11-08,14:00,2026,Crystal Palace,Liverpool,,,Home,PL,10,2026_Crystal Palace_Liverpool,False
+2026-11-08,14:00,2026,Ipswich,Bournemouth,,,Home,PL,10,2026_Ipswich_Bournemouth,False
+2026-11-08,14:00,2026,Sunderland,Chelsea,,,Home,PL,10,2026_Sunderland_Chelsea,False
+2026-11-08,16:30,2026,Man United,Aston Villa,,,Home,PL,10,2026_Man United_Aston Villa,False
+2026-11-21,12:30,2026,Man City,Fulham,,,Home,PL,11,2026_Man City_Fulham,False
+2026-11-21,15:00,2026,Aston Villa,Sunderland,,,Home,PL,11,2026_Aston Villa_Sunderland,False
+2026-11-21,15:00,2026,Bournemouth,Nott'm Forest,,,Home,PL,11,2026_Bournemouth_Nott'm Forest,False
+2026-11-21,15:00,2026,Chelsea,Leeds,,,Home,PL,11,2026_Chelsea_Leeds,False
+2026-11-21,15:00,2026,Coventry,Crystal Palace,,,Home,PL,11,2026_Coventry_Crystal Palace,False
+2026-11-21,15:00,2026,Tottenham,Ipswich,,,Home,PL,11,2026_Tottenham_Ipswich,False
+2026-11-21,17:30,2026,Newcastle,Arsenal,,,Home,PL,11,2026_Newcastle_Arsenal,False
+2026-11-22,14:00,2026,Hull,Brighton,,,Home,PL,11,2026_Hull_Brighton,False
+2026-11-22,16:30,2026,Liverpool,Man United,,,Home,PL,11,2026_Liverpool_Man United,False
+2026-11-23,20:00,2026,Brentford,Everton,,,Home,PL,11,2026_Brentford_Everton,False
+2026-11-27,20:00,2026,Nott'm Forest,Chelsea,,,Home,PL,12,2026_Nott'm Forest_Chelsea,False
+2026-11-28,15:00,2026,Leeds,Coventry,,,Home,PL,12,2026_Leeds_Coventry,False
+2026-11-28,15:00,2026,Man United,Brentford,,,Home,PL,12,2026_Man United_Brentford,False
+2026-11-28,17:30,2026,Ipswich,Aston Villa,,,Home,PL,12,2026_Ipswich_Aston Villa,False
+2026-11-29,12:00,2026,Everton,Liverpool,,,Home,PL,12,2026_Everton_Liverpool,False
+2026-11-29,14:05,2026,Brighton,Newcastle,,,Home,PL,12,2026_Brighton_Newcastle,False
+2026-11-29,14:05,2026,Crystal Palace,Hull,,,Home,PL,12,2026_Crystal Palace_Hull,False
+2026-11-29,14:05,2026,Fulham,Bournemouth,,,Home,PL,12,2026_Fulham_Bournemouth,False
+2026-11-29,14:05,2026,Sunderland,Tottenham,,,Home,PL,12,2026_Sunderland_Tottenham,False
+2026-11-29,16:30,2026,Arsenal,Man City,,,Home,PL,12,2026_Arsenal_Man City,False
+2026-12-01,20:00,2026,Coventry,Ipswich,,,Home,PL,13,2026_Coventry_Ipswich,False
+2026-12-02,19:30,2026,Chelsea,Crystal Palace,,,Home,PL,13,2026_Chelsea_Crystal Palace,False
+2026-12-02,19:30,2026,Hull,Nott'm Forest,,,Home,PL,13,2026_Hull_Nott'm Forest,False
+2026-12-02,19:30,2026,Liverpool,Sunderland,,,Home,PL,13,2026_Liverpool_Sunderland,False
+2026-12-02,19:30,2026,Man City,Leeds,,,Home,PL,13,2026_Man City_Leeds,False
+2026-12-02,20:15,2026,Aston Villa,Everton,,,Home,PL,13,2026_Aston Villa_Everton,False
+2026-12-02,20:15,2026,Bournemouth,Brighton,,,Home,PL,13,2026_Bournemouth_Brighton,False
+2026-12-02,20:15,2026,Brentford,Arsenal,,,Home,PL,13,2026_Brentford_Arsenal,False
+2026-12-02,20:15,2026,Newcastle,Man United,,,Home,PL,13,2026_Newcastle_Man United,False
+2026-12-03,20:00,2026,Tottenham,Fulham,,,Home,PL,13,2026_Tottenham_Fulham,False
+2026-12-05,12:30,2026,Chelsea,Liverpool,,,Home,PL,14,2026_Chelsea_Liverpool,False
+2026-12-05,15:00,2026,Aston Villa,Crystal Palace,,,Home,PL,14,2026_Aston Villa_Crystal Palace,False
+2026-12-05,15:00,2026,Bournemouth,Hull,,,Home,PL,14,2026_Bournemouth_Hull,False
+2026-12-05,15:00,2026,Leeds,Ipswich,,,Home,PL,14,2026_Leeds_Ipswich,False
+2026-12-05,15:00,2026,Man United,Coventry,,,Home,PL,14,2026_Man United_Coventry,False
+2026-12-05,17:30,2026,Nott'm Forest,Brighton,,,Home,PL,14,2026_Nott'm Forest_Brighton,False
+2026-12-05,20:00,2026,Brentford,Man City,,,Home,PL,14,2026_Brentford_Man City,False
+2026-12-06,14:00,2026,Everton,Fulham,,,Home,PL,14,2026_Everton_Fulham,False
+2026-12-06,14:00,2026,Newcastle,Sunderland,,,Home,PL,14,2026_Newcastle_Sunderland,False
+2026-12-06,16:30,2026,Tottenham,Arsenal,,,Home,PL,14,2026_Tottenham_Arsenal,False
+2026-12-12,15:00,2026,Fulham,Brentford,,,Home,PL,15,2026_Fulham_Brentford,False
+2026-12-12,15:00,2026,Ipswich,Newcastle,,,Home,PL,15,2026_Ipswich_Newcastle,False
+2026-12-12,15:00,2026,Liverpool,Leeds,,,Home,PL,15,2026_Liverpool_Leeds,False
+2026-12-12,17:30,2026,Man City,Chelsea,,,Home,PL,15,2026_Man City_Chelsea,False
+2026-12-13,14:00,2026,Arsenal,Bournemouth,,,Home,PL,15,2026_Arsenal_Bournemouth,False
+2026-12-13,14:00,2026,Brighton,Everton,,,Home,PL,15,2026_Brighton_Everton,False
+2026-12-13,14:00,2026,Sunderland,Nott'm Forest,,,Home,PL,15,2026_Sunderland_Nott'm Forest,False
+2026-12-13,16:30,2026,Coventry,Aston Villa,,,Home,PL,15,2026_Coventry_Aston Villa,False
+2026-12-13,19:00,2026,Crystal Palace,Man United,,,Home,PL,15,2026_Crystal Palace_Man United,False
+2026-12-14,20:00,2026,Hull,Tottenham,,,Home,PL,15,2026_Hull_Tottenham,False
+2026-12-19,12:30,2026,Brentford,Newcastle,,,Home,PL,16,2026_Brentford_Newcastle,False
+2026-12-19,15:00,2026,Bournemouth,Coventry,,,Home,PL,16,2026_Bournemouth_Coventry,False
+2026-12-19,15:00,2026,Leeds,Fulham,,,Home,PL,16,2026_Leeds_Fulham,False
+2026-12-19,15:00,2026,Man City,Hull,,,Home,PL,16,2026_Man City_Hull,False
+2026-12-19,15:00,2026,Nott'm Forest,Everton,,,Home,PL,16,2026_Nott'm Forest_Everton,False
+2026-12-19,17:30,2026,Liverpool,Tottenham,,,Home,PL,16,2026_Liverpool_Tottenham,False
+2026-12-20,14:00,2026,Brighton,Ipswich,,,Home,PL,16,2026_Brighton_Ipswich,False
+2026-12-20,14:00,2026,Sunderland,Crystal Palace,,,Home,PL,16,2026_Sunderland_Crystal Palace,False
+2026-12-20,16:30,2026,Arsenal,Man United,,,Home,PL,16,2026_Arsenal_Man United,False
+2026-12-21,20:00,2026,Chelsea,Aston Villa,,,Home,PL,16,2026_Chelsea_Aston Villa,False
+2026-12-26,12:30,2026,Aston Villa,Leeds,,,Home,PL,17,2026_Aston Villa_Leeds,False
+2026-12-26,15:00,2026,Everton,Sunderland,,,Home,PL,17,2026_Everton_Sunderland,False
+2026-12-26,15:00,2026,Fulham,Brighton,,,Home,PL,17,2026_Fulham_Brighton,False
+2026-12-26,15:00,2026,Ipswich,Brentford,,,Home,PL,17,2026_Ipswich_Brentford,False
+2026-12-26,15:00,2026,Tottenham,Bournemouth,,,Home,PL,17,2026_Tottenham_Bournemouth,False
+2026-12-26,17:30,2026,Hull,Liverpool,,,Home,PL,17,2026_Hull_Liverpool,False
+2026-12-26,20:00,2026,Newcastle,Man City,,,Home,PL,17,2026_Newcastle_Man City,False
+2026-12-27,14:00,2026,Coventry,Chelsea,,,Home,PL,17,2026_Coventry_Chelsea,False
+2026-12-27,16:30,2026,Man United,Nott'm Forest,,,Home,PL,17,2026_Man United_Nott'm Forest,False
+2026-12-27,19:00,2026,Crystal Palace,Arsenal,,,Home,PL,17,2026_Crystal Palace_Arsenal,False
+2026-12-29,19:30,2026,Hull,Leeds,,,Home,PL,18,2026_Hull_Leeds,False
+2026-12-29,19:30,2026,Tottenham,Brighton,,,Home,PL,18,2026_Tottenham_Brighton,False
+2026-12-29,20:15,2026,Everton,Man City,,,Home,PL,18,2026_Everton_Man City,False
+2026-12-30,19:30,2026,Coventry,Brentford,,,Home,PL,18,2026_Coventry_Brentford,False
+2026-12-30,19:30,2026,Crystal Palace,Bournemouth,,,Home,PL,18,2026_Crystal Palace_Bournemouth,False
+2026-12-30,19:30,2026,Fulham,Arsenal,,,Home,PL,18,2026_Fulham_Arsenal,False
+2026-12-30,19:30,2026,Man United,Sunderland,,,Home,PL,18,2026_Man United_Sunderland,False
+2026-12-30,19:30,2026,Newcastle,Nott'm Forest,,,Home,PL,18,2026_Newcastle_Nott'm Forest,False
+2026-12-30,20:15,2026,Aston Villa,Liverpool,,,Home,PL,18,2026_Aston Villa_Liverpool,False
+2026-12-30,20:15,2026,Ipswich,Chelsea,,,Home,PL,18,2026_Ipswich_Chelsea,False
+2027-01-01,20:00,2026,Leeds,Everton,,,Home,PL,19,2026_Leeds_Everton,False
+2027-01-02,12:30,2026,Brighton,Man United,,,Home,PL,19,2026_Brighton_Man United,False
+2027-01-02,15:00,2026,Arsenal,Ipswich,,,Home,PL,19,2026_Arsenal_Ipswich,False
+2027-01-02,15:00,2026,Brentford,Crystal Palace,,,Home,PL,19,2026_Brentford_Crystal Palace,False
+2027-01-02,15:00,2026,Liverpool,Coventry,,,Home,PL,19,2026_Liverpool_Coventry,False
+2027-01-02,15:00,2026,Nott'm Forest,Fulham,,,Home,PL,19,2026_Nott'm Forest_Fulham,False
+2027-01-02,15:00,2026,Sunderland,Hull,,,Home,PL,19,2026_Sunderland_Hull,False
+2027-01-02,17:30,2026,Bournemouth,Aston Villa,,,Home,PL,19,2026_Bournemouth_Aston Villa,False
+2027-01-03,14:00,2026,Chelsea,Newcastle,,,Home,PL,19,2026_Chelsea_Newcastle,False
+2027-01-03,16:30,2026,Man City,Tottenham,,,Home,PL,19,2026_Man City_Tottenham,False
+2027-01-05,19:30,2026,Arsenal,Brentford,,,Home,PL,20,2026_Arsenal_Brentford,False
+2027-01-05,19:30,2026,Brighton,Bournemouth,,,Home,PL,20,2026_Brighton_Bournemouth,False
+2027-01-05,19:30,2026,Everton,Aston Villa,,,Home,PL,20,2026_Everton_Aston Villa,False
+2027-01-05,19:30,2026,Nott'm Forest,Hull,,,Home,PL,20,2026_Nott'm Forest_Hull,False
+2027-01-05,20:15,2026,Sunderland,Liverpool,,,Home,PL,20,2026_Sunderland_Liverpool,False
+2027-01-06,19:30,2026,Crystal Palace,Chelsea,,,Home,PL,20,2026_Crystal Palace_Chelsea,False
+2027-01-06,19:30,2026,Fulham,Tottenham,,,Home,PL,20,2026_Fulham_Tottenham,False
+2027-01-06,19:30,2026,Ipswich,Coventry,,,Home,PL,20,2026_Ipswich_Coventry,False
+2027-01-06,20:15,2026,Leeds,Man City,,,Home,PL,20,2026_Leeds_Man City,False
+2027-01-07,20:00,2026,Man United,Newcastle,,,Home,PL,20,2026_Man United_Newcastle,False
+2027-01-16,15:00,2026,Aston Villa,Man United,,,Home,PL,21,2026_Aston Villa_Man United,False
+2027-01-16,15:00,2026,Bournemouth,Ipswich,,,Home,PL,21,2026_Bournemouth_Ipswich,False
+2027-01-16,15:00,2026,Brentford,Brighton,,,Home,PL,21,2026_Brentford_Brighton,False
+2027-01-16,15:00,2026,Chelsea,Sunderland,,,Home,PL,21,2026_Chelsea_Sunderland,False
+2027-01-16,15:00,2026,Coventry,Everton,,,Home,PL,21,2026_Coventry_Everton,False
+2027-01-16,15:00,2026,Hull,Arsenal,,,Home,PL,21,2026_Hull_Arsenal,False
+2027-01-16,15:00,2026,Liverpool,Crystal Palace,,,Home,PL,21,2026_Liverpool_Crystal Palace,False
+2027-01-16,15:00,2026,Man City,Nott'm Forest,,,Home,PL,21,2026_Man City_Nott'm Forest,False
+2027-01-16,15:00,2026,Newcastle,Fulham,,,Home,PL,21,2026_Newcastle_Fulham,False
+2027-01-16,15:00,2026,Tottenham,Leeds,,,Home,PL,21,2026_Tottenham_Leeds,False
+2027-01-23,15:00,2026,Arsenal,Newcastle,,,Home,PL,22,2026_Arsenal_Newcastle,False
+2027-01-23,15:00,2026,Brighton,Man City,,,Home,PL,22,2026_Brighton_Man City,False
+2027-01-23,15:00,2026,Crystal Palace,Tottenham,,,Home,PL,22,2026_Crystal Palace_Tottenham,False
+2027-01-23,15:00,2026,Everton,Brentford,,,Home,PL,22,2026_Everton_Brentford,False
+2027-01-23,15:00,2026,Fulham,Aston Villa,,,Home,PL,22,2026_Fulham_Aston Villa,False
+2027-01-23,15:00,2026,Ipswich,Hull,,,Home,PL,22,2026_Ipswich_Hull,False
+2027-01-23,15:00,2026,Leeds,Chelsea,,,Home,PL,22,2026_Leeds_Chelsea,False
+2027-01-23,15:00,2026,Man United,Liverpool,,,Home,PL,22,2026_Man United_Liverpool,False
+2027-01-23,15:00,2026,Nott'm Forest,Bournemouth,,,Home,PL,22,2026_Nott'm Forest_Bournemouth,False
+2027-01-23,15:00,2026,Sunderland,Coventry,,,Home,PL,22,2026_Sunderland_Coventry,False
+2027-01-30,15:00,2026,Aston Villa,Ipswich,,,Home,PL,23,2026_Aston Villa_Ipswich,False
+2027-01-30,15:00,2026,Bournemouth,Fulham,,,Home,PL,23,2026_Bournemouth_Fulham,False
+2027-01-30,15:00,2026,Brentford,Man United,,,Home,PL,23,2026_Brentford_Man United,False
+2027-01-30,15:00,2026,Chelsea,Nott'm Forest,,,Home,PL,23,2026_Chelsea_Nott'm Forest,False
+2027-01-30,15:00,2026,Coventry,Leeds,,,Home,PL,23,2026_Coventry_Leeds,False
+2027-01-30,15:00,2026,Hull,Crystal Palace,,,Home,PL,23,2026_Hull_Crystal Palace,False
+2027-01-30,15:00,2026,Liverpool,Everton,,,Home,PL,23,2026_Liverpool_Everton,False
+2027-01-30,15:00,2026,Man City,Arsenal,,,Home,PL,23,2026_Man City_Arsenal,False
+2027-01-30,15:00,2026,Newcastle,Brighton,,,Home,PL,23,2026_Newcastle_Brighton,False
+2027-01-30,15:00,2026,Tottenham,Sunderland,,,Home,PL,23,2026_Tottenham_Sunderland,False
+2027-02-06,15:00,2026,Arsenal,Liverpool,,,Home,PL,24,2026_Arsenal_Liverpool,False
+2027-02-06,15:00,2026,Brighton,Hull,,,Home,PL,24,2026_Brighton_Hull,False
+2027-02-06,15:00,2026,Crystal Palace,Coventry,,,Home,PL,24,2026_Crystal Palace_Coventry,False
+2027-02-06,15:00,2026,Everton,Newcastle,,,Home,PL,24,2026_Everton_Newcastle,False
+2027-02-06,15:00,2026,Fulham,Man City,,,Home,PL,24,2026_Fulham_Man City,False
+2027-02-06,15:00,2026,Ipswich,Tottenham,,,Home,PL,24,2026_Ipswich_Tottenham,False
+2027-02-06,15:00,2026,Leeds,Bournemouth,,,Home,PL,24,2026_Leeds_Bournemouth,False
+2027-02-06,15:00,2026,Man United,Chelsea,,,Home,PL,24,2026_Man United_Chelsea,False
+2027-02-06,15:00,2026,Nott'm Forest,Brentford,,,Home,PL,24,2026_Nott'm Forest_Brentford,False
+2027-02-06,15:00,2026,Sunderland,Aston Villa,,,Home,PL,24,2026_Sunderland_Aston Villa,False
+2027-02-10,20:00,2026,Aston Villa,Bournemouth,,,Home,PL,25,2026_Aston Villa_Bournemouth,False
+2027-02-10,20:00,2026,Coventry,Liverpool,,,Home,PL,25,2026_Coventry_Liverpool,False
+2027-02-10,20:00,2026,Crystal Palace,Brentford,,,Home,PL,25,2026_Crystal Palace_Brentford,False
+2027-02-10,20:00,2026,Everton,Leeds,,,Home,PL,25,2026_Everton_Leeds,False
+2027-02-10,20:00,2026,Fulham,Nott'm Forest,,,Home,PL,25,2026_Fulham_Nott'm Forest,False
+2027-02-10,20:00,2026,Hull,Sunderland,,,Home,PL,25,2026_Hull_Sunderland,False
+2027-02-10,20:00,2026,Ipswich,Arsenal,,,Home,PL,25,2026_Ipswich_Arsenal,False
+2027-02-10,20:00,2026,Man United,Brighton,,,Home,PL,25,2026_Man United_Brighton,False
+2027-02-10,20:00,2026,Newcastle,Chelsea,,,Home,PL,25,2026_Newcastle_Chelsea,False
+2027-02-10,20:00,2026,Tottenham,Man City,,,Home,PL,25,2026_Tottenham_Man City,False
+2027-02-20,15:00,2026,Arsenal,Fulham,,,Home,PL,26,2026_Arsenal_Fulham,False
+2027-02-20,15:00,2026,Bournemouth,Crystal Palace,,,Home,PL,26,2026_Bournemouth_Crystal Palace,False
+2027-02-20,15:00,2026,Brentford,Coventry,,,Home,PL,26,2026_Brentford_Coventry,False
+2027-02-20,15:00,2026,Brighton,Tottenham,,,Home,PL,26,2026_Brighton_Tottenham,False
+2027-02-20,15:00,2026,Chelsea,Ipswich,,,Home,PL,26,2026_Chelsea_Ipswich,False
+2027-02-20,15:00,2026,Leeds,Aston Villa,,,Home,PL,26,2026_Leeds_Aston Villa,False
+2027-02-20,15:00,2026,Liverpool,Hull,,,Home,PL,26,2026_Liverpool_Hull,False
+2027-02-20,15:00,2026,Man City,Newcastle,,,Home,PL,26,2026_Man City_Newcastle,False
+2027-02-20,15:00,2026,Nott'm Forest,Man United,,,Home,PL,26,2026_Nott'm Forest_Man United,False
+2027-02-20,15:00,2026,Sunderland,Everton,,,Home,PL,26,2026_Sunderland_Everton,False
+2027-02-27,15:00,2026,Aston Villa,Chelsea,,,Home,PL,27,2026_Aston Villa_Chelsea,False
+2027-02-27,15:00,2026,Coventry,Bournemouth,,,Home,PL,27,2026_Coventry_Bournemouth,False
+2027-02-27,15:00,2026,Crystal Palace,Sunderland,,,Home,PL,27,2026_Crystal Palace_Sunderland,False
+2027-02-27,15:00,2026,Everton,Nott'm Forest,,,Home,PL,27,2026_Everton_Nott'm Forest,False
+2027-02-27,15:00,2026,Fulham,Leeds,,,Home,PL,27,2026_Fulham_Leeds,False
+2027-02-27,15:00,2026,Hull,Man City,,,Home,PL,27,2026_Hull_Man City,False
+2027-02-27,15:00,2026,Ipswich,Brighton,,,Home,PL,27,2026_Ipswich_Brighton,False
+2027-02-27,15:00,2026,Man United,Arsenal,,,Home,PL,27,2026_Man United_Arsenal,False
+2027-02-27,15:00,2026,Newcastle,Brentford,,,Home,PL,27,2026_Newcastle_Brentford,False
+2027-02-27,15:00,2026,Tottenham,Liverpool,,,Home,PL,27,2026_Tottenham_Liverpool,False
+2027-03-03,20:00,2026,Arsenal,Crystal Palace,,,Home,PL,28,2026_Arsenal_Crystal Palace,False
+2027-03-03,20:00,2026,Bournemouth,Tottenham,,,Home,PL,28,2026_Bournemouth_Tottenham,False
+2027-03-03,20:00,2026,Brentford,Ipswich,,,Home,PL,28,2026_Brentford_Ipswich,False
+2027-03-03,20:00,2026,Brighton,Fulham,,,Home,PL,28,2026_Brighton_Fulham,False
+2027-03-03,20:00,2026,Chelsea,Coventry,,,Home,PL,28,2026_Chelsea_Coventry,False
+2027-03-03,20:00,2026,Leeds,Hull,,,Home,PL,28,2026_Leeds_Hull,False
+2027-03-03,20:00,2026,Liverpool,Aston Villa,,,Home,PL,28,2026_Liverpool_Aston Villa,False
+2027-03-03,20:00,2026,Man City,Everton,,,Home,PL,28,2026_Man City_Everton,False
+2027-03-03,20:00,2026,Nott'm Forest,Newcastle,,,Home,PL,28,2026_Nott'm Forest_Newcastle,False
+2027-03-03,20:00,2026,Sunderland,Man United,,,Home,PL,28,2026_Sunderland_Man United,False
+2027-03-13,15:00,2026,Aston Villa,Hull,,,Home,PL,29,2026_Aston Villa_Hull,False
+2027-03-13,15:00,2026,Bournemouth,Newcastle,,,Home,PL,29,2026_Bournemouth_Newcastle,False
+2027-03-13,15:00,2026,Chelsea,Arsenal,,,Home,PL,29,2026_Chelsea_Arsenal,False
+2027-03-13,15:00,2026,Coventry,Man City,,,Home,PL,29,2026_Coventry_Man City,False
+2027-03-13,15:00,2026,Crystal Palace,Fulham,,,Home,PL,29,2026_Crystal Palace_Fulham,False
+2027-03-13,15:00,2026,Leeds,Brighton,,,Home,PL,29,2026_Leeds_Brighton,False
+2027-03-13,15:00,2026,Liverpool,Ipswich,,,Home,PL,29,2026_Liverpool_Ipswich,False
+2027-03-13,15:00,2026,Man United,Everton,,,Home,PL,29,2026_Man United_Everton,False
+2027-03-13,15:00,2026,Sunderland,Brentford,,,Home,PL,29,2026_Sunderland_Brentford,False
+2027-03-13,15:00,2026,Tottenham,Nott'm Forest,,,Home,PL,29,2026_Tottenham_Nott'm Forest,False
+2027-03-20,15:00,2026,Arsenal,Sunderland,,,Home,PL,30,2026_Arsenal_Sunderland,False
+2027-03-20,15:00,2026,Brentford,Bournemouth,,,Home,PL,30,2026_Brentford_Bournemouth,False
+2027-03-20,15:00,2026,Brighton,Coventry,,,Home,PL,30,2026_Brighton_Coventry,False
+2027-03-20,15:00,2026,Everton,Tottenham,,,Home,PL,30,2026_Everton_Tottenham,False
+2027-03-20,15:00,2026,Fulham,Liverpool,,,Home,PL,30,2026_Fulham_Liverpool,False
+2027-03-20,15:00,2026,Hull,Chelsea,,,Home,PL,30,2026_Hull_Chelsea,False
+2027-03-20,15:00,2026,Ipswich,Crystal Palace,,,Home,PL,30,2026_Ipswich_Crystal Palace,False
+2027-03-20,15:00,2026,Man City,Man United,,,Home,PL,30,2026_Man City_Man United,False
+2027-03-20,15:00,2026,Newcastle,Leeds,,,Home,PL,30,2026_Newcastle_Leeds,False
+2027-03-20,15:00,2026,Nott'm Forest,Aston Villa,,,Home,PL,30,2026_Nott'm Forest_Aston Villa,False
+2027-04-10,15:00,2026,Aston Villa,Brighton,,,Home,PL,31,2026_Aston Villa_Brighton,False
+2027-04-10,15:00,2026,Bournemouth,Man City,,,Home,PL,31,2026_Bournemouth_Man City,False
+2027-04-10,15:00,2026,Chelsea,Fulham,,,Home,PL,31,2026_Chelsea_Fulham,False
+2027-04-10,15:00,2026,Coventry,Arsenal,,,Home,PL,31,2026_Coventry_Arsenal,False
+2027-04-10,15:00,2026,Crystal Palace,Everton,,,Home,PL,31,2026_Crystal Palace_Everton,False
+2027-04-10,15:00,2026,Leeds,Nott'm Forest,,,Home,PL,31,2026_Leeds_Nott'm Forest,False
+2027-04-10,15:00,2026,Liverpool,Newcastle,,,Home,PL,31,2026_Liverpool_Newcastle,False
+2027-04-10,15:00,2026,Man United,Hull,,,Home,PL,31,2026_Man United_Hull,False
+2027-04-10,15:00,2026,Sunderland,Ipswich,,,Home,PL,31,2026_Sunderland_Ipswich,False
+2027-04-10,15:00,2026,Tottenham,Brentford,,,Home,PL,31,2026_Tottenham_Brentford,False
+2027-04-17,15:00,2026,Arsenal,Aston Villa,,,Home,PL,32,2026_Arsenal_Aston Villa,False
+2027-04-17,15:00,2026,Brentford,Leeds,,,Home,PL,32,2026_Brentford_Leeds,False
+2027-04-17,15:00,2026,Brighton,Chelsea,,,Home,PL,32,2026_Brighton_Chelsea,False
+2027-04-17,15:00,2026,Everton,Bournemouth,,,Home,PL,32,2026_Everton_Bournemouth,False
+2027-04-17,15:00,2026,Fulham,Sunderland,,,Home,PL,32,2026_Fulham_Sunderland,False
+2027-04-17,15:00,2026,Hull,Coventry,,,Home,PL,32,2026_Hull_Coventry,False
+2027-04-17,15:00,2026,Ipswich,Man United,,,Home,PL,32,2026_Ipswich_Man United,False
+2027-04-17,15:00,2026,Man City,Crystal Palace,,,Home,PL,32,2026_Man City_Crystal Palace,False
+2027-04-17,15:00,2026,Newcastle,Tottenham,,,Home,PL,32,2026_Newcastle_Tottenham,False
+2027-04-17,15:00,2026,Nott'm Forest,Liverpool,,,Home,PL,32,2026_Nott'm Forest_Liverpool,False
+2027-04-24,15:00,2026,Aston Villa,Coventry,,,Home,PL,33,2026_Aston Villa_Coventry,False
+2027-04-24,15:00,2026,Bournemouth,Arsenal,,,Home,PL,33,2026_Bournemouth_Arsenal,False
+2027-04-24,15:00,2026,Brentford,Fulham,,,Home,PL,33,2026_Brentford_Fulham,False
+2027-04-24,15:00,2026,Chelsea,Man City,,,Home,PL,33,2026_Chelsea_Man City,False
+2027-04-24,15:00,2026,Everton,Brighton,,,Home,PL,33,2026_Everton_Brighton,False
+2027-04-24,15:00,2026,Leeds,Liverpool,,,Home,PL,33,2026_Leeds_Liverpool,False
+2027-04-24,15:00,2026,Man United,Crystal Palace,,,Home,PL,33,2026_Man United_Crystal Palace,False
+2027-04-24,15:00,2026,Newcastle,Ipswich,,,Home,PL,33,2026_Newcastle_Ipswich,False
+2027-04-24,15:00,2026,Nott'm Forest,Sunderland,,,Home,PL,33,2026_Nott'm Forest_Sunderland,False
+2027-04-24,15:00,2026,Tottenham,Hull,,,Home,PL,33,2026_Tottenham_Hull,False
+2027-05-01,15:00,2026,Arsenal,Tottenham,,,Home,PL,34,2026_Arsenal_Tottenham,False
+2027-05-01,15:00,2026,Brighton,Nott'm Forest,,,Home,PL,34,2026_Brighton_Nott'm Forest,False
+2027-05-01,15:00,2026,Coventry,Man United,,,Home,PL,34,2026_Coventry_Man United,False
+2027-05-01,15:00,2026,Crystal Palace,Aston Villa,,,Home,PL,34,2026_Crystal Palace_Aston Villa,False
+2027-05-01,15:00,2026,Fulham,Everton,,,Home,PL,34,2026_Fulham_Everton,False
+2027-05-01,15:00,2026,Hull,Bournemouth,,,Home,PL,34,2026_Hull_Bournemouth,False
+2027-05-01,15:00,2026,Ipswich,Leeds,,,Home,PL,34,2026_Ipswich_Leeds,False
+2027-05-01,15:00,2026,Liverpool,Chelsea,,,Home,PL,34,2026_Liverpool_Chelsea,False
+2027-05-01,15:00,2026,Man City,Brentford,,,Home,PL,34,2026_Man City_Brentford,False
+2027-05-01,15:00,2026,Sunderland,Newcastle,,,Home,PL,34,2026_Sunderland_Newcastle,False
+2027-05-08,15:00,2026,Bournemouth,Man United,,,Home,PL,35,2026_Bournemouth_Man United,False
+2027-05-08,15:00,2026,Brentford,Aston Villa,,,Home,PL,35,2026_Brentford_Aston Villa,False
+2027-05-08,15:00,2026,Brighton,Sunderland,,,Home,PL,35,2026_Brighton_Sunderland,False
+2027-05-08,15:00,2026,Everton,Hull,,,Home,PL,35,2026_Everton_Hull,False
+2027-05-08,15:00,2026,Fulham,Ipswich,,,Home,PL,35,2026_Fulham_Ipswich,False
+2027-05-08,15:00,2026,Leeds,Arsenal,,,Home,PL,35,2026_Leeds_Arsenal,False
+2027-05-08,15:00,2026,Man City,Liverpool,,,Home,PL,35,2026_Man City_Liverpool,False
+2027-05-08,15:00,2026,Newcastle,Coventry,,,Home,PL,35,2026_Newcastle_Coventry,False
+2027-05-08,15:00,2026,Nott'm Forest,Crystal Palace,,,Home,PL,35,2026_Nott'm Forest_Crystal Palace,False
+2027-05-08,15:00,2026,Tottenham,Chelsea,,,Home,PL,35,2026_Tottenham_Chelsea,False
+2027-05-15,15:00,2026,Arsenal,Nott'm Forest,,,Home,PL,36,2026_Arsenal_Nott'm Forest,False
+2027-05-15,15:00,2026,Aston Villa,Newcastle,,,Home,PL,36,2026_Aston Villa_Newcastle,False
+2027-05-15,15:00,2026,Chelsea,Everton,,,Home,PL,36,2026_Chelsea_Everton,False
+2027-05-15,15:00,2026,Coventry,Tottenham,,,Home,PL,36,2026_Coventry_Tottenham,False
+2027-05-15,15:00,2026,Crystal Palace,Brighton,,,Home,PL,36,2026_Crystal Palace_Brighton,False
+2027-05-15,15:00,2026,Hull,Fulham,,,Home,PL,36,2026_Hull_Fulham,False
+2027-05-15,15:00,2026,Ipswich,Man City,,,Home,PL,36,2026_Ipswich_Man City,False
+2027-05-15,15:00,2026,Liverpool,Brentford,,,Home,PL,36,2026_Liverpool_Brentford,False
+2027-05-15,15:00,2026,Man United,Leeds,,,Home,PL,36,2026_Man United_Leeds,False
+2027-05-15,15:00,2026,Sunderland,Bournemouth,,,Home,PL,36,2026_Sunderland_Bournemouth,False
+2027-05-23,15:00,2026,Bournemouth,Chelsea,,,Home,PL,37,2026_Bournemouth_Chelsea,False
+2027-05-23,15:00,2026,Brentford,Hull,,,Home,PL,37,2026_Brentford_Hull,False
+2027-05-23,15:00,2026,Brighton,Liverpool,,,Home,PL,37,2026_Brighton_Liverpool,False
+2027-05-23,15:00,2026,Everton,Arsenal,,,Home,PL,37,2026_Everton_Arsenal,False
+2027-05-23,15:00,2026,Fulham,Coventry,,,Home,PL,37,2026_Fulham_Coventry,False
+2027-05-23,15:00,2026,Leeds,Sunderland,,,Home,PL,37,2026_Leeds_Sunderland,False
+2027-05-23,15:00,2026,Man City,Aston Villa,,,Home,PL,37,2026_Man City_Aston Villa,False
+2027-05-23,15:00,2026,Newcastle,Crystal Palace,,,Home,PL,37,2026_Newcastle_Crystal Palace,False
+2027-05-23,15:00,2026,Nott'm Forest,Ipswich,,,Home,PL,37,2026_Nott'm Forest_Ipswich,False
+2027-05-23,15:00,2026,Tottenham,Man United,,,Home,PL,37,2026_Tottenham_Man United,False
+2027-05-30,16:00,2026,Arsenal,Brighton,,,Home,PL,38,2026_Arsenal_Brighton,False
+2027-05-30,16:00,2026,Aston Villa,Tottenham,,,Home,PL,38,2026_Aston Villa_Tottenham,False
+2027-05-30,16:00,2026,Chelsea,Brentford,,,Home,PL,38,2026_Chelsea_Brentford,False
+2027-05-30,16:00,2026,Coventry,Nott'm Forest,,,Home,PL,38,2026_Coventry_Nott'm Forest,False
+2027-05-30,16:00,2026,Crystal Palace,Leeds,,,Home,PL,38,2026_Crystal Palace_Leeds,False
+2027-05-30,16:00,2026,Hull,Newcastle,,,Home,PL,38,2026_Hull_Newcastle,False
+2027-05-30,16:00,2026,Ipswich,Everton,,,Home,PL,38,2026_Ipswich_Everton,False
+2027-05-30,16:00,2026,Liverpool,Bournemouth,,,Home,PL,38,2026_Liverpool_Bournemouth,False
+2027-05-30,16:00,2026,Man United,Fulham,,,Home,PL,38,2026_Man United_Fulham,False
+2027-05-30,16:00,2026,Sunderland,Man City,,,Home,PL,38,2026_Sunderland_Man City,False

@@ -70,7 +70,8 @@ def normalize_matches(raw, season=None):
         out[target] = pd.to_numeric(raw[source], errors="raise") if source in raw else np.nan
     out["location"] = "Home"
     out["game_type"] = "PL"
-    out["week"] = out["gameday"].dt.strftime("%G-W%V")  # ISO calendar week
+    out["week"] = (pd.to_numeric(raw["Matchweek"], errors="raise").astype("Int64")
+                   if "Matchweek" in raw else out["gameday"].dt.strftime("%G-W%V"))
     out["game_id"] = (out["season"].astype(str) + "_" + out["home_team"] + "_" + out["away_team"])
     return out.reset_index(drop=True)
 
@@ -96,6 +97,7 @@ def load_current_season(season):
     if frame.loc[finished, ['team_h_score', 'team_a_score']].isna().any().any():
         raise ValueError('Completed Premier League match is missing a score')
     raw = pd.DataFrame({'Div': 'E0', 'Date': kickoff.dt.strftime('%d/%m/%Y'),
+                        'Matchweek': frame.event,
                         'Time': kickoff.dt.strftime('%H:%M'),
                         'HomeTeam': frame.team_h.map(names), 'AwayTeam': frame.team_a.map(names),
                         'FTHG': frame.team_h_score.where(finished),
@@ -517,11 +519,36 @@ def fit_model(games, output_dir):
     if not np.isfinite(params[['K_best', 'home_adv_best', 'carry_best', 'mov_scale']]).all().all():
         raise ValueError('Invalid cached parameters')
     completed = games.dropna(subset=['home_score', 'away_score']).copy()
-    return run_expanding_k_elo(
+    model = run_expanding_k_elo(
         completed, first_train_year=2003, first_eval_year=2008,
         K_grid=SETTINGS['K_grid'], home_adv_grid=SETTINGS['home_adv_grid'],
         carryover_grid=SETTINGS['carryover_grid'], param_tune_window=5,
         projection_season=int(games.season.max()), saved_parameters=params.set_index('eval_year'))
+    # Store the spread conversion with the existing seasonal Elo parameter cache.
+    saved = params.set_index('eval_year').get('spread_slope', pd.Series(dtype=float))
+    if not np.isfinite(saved.dropna()).all() or not saved.dropna().between(0, 20).all():
+        raise ValueError('Invalid cached spread multiplier')
+    table = model['K_by_year']
+    table['spread_slope'] = table.eval_year.map(saved)
+    current = table.eval_year.eq(model['current_season'])
+    if table.loc[current, 'spread_slope'].isna().any():
+        table.loc[current, 'spread_slope'] = fit_spread_slope(model['games'], model['current_season'])
+    return model
+
+
+def fit_spread_slope(history, season):
+    """Fit the existing absolute-error conversion using earlier seasons only."""
+    train = history[history.season.lt(season)]
+    if train.empty:
+        raise ValueError('No prior-season games for the spread fit')
+    margin = train.home_score - train.away_score
+    p = train.p_home.clip(1e-6, 1 - 1e-6)
+    logits = np.log(p / (1 - p))
+    result = minimize_scalar(lambda s: np.mean(np.abs(margin - s * logits)),
+                             bounds=(0, 20), method='bounded')
+    if not result.success or not np.isfinite(result.x):
+        raise ValueError('Spread fit did not converge')
+    return float(result.x)
 
 
 def kickoff_utc(frame):
@@ -549,10 +576,7 @@ def make_outputs(games, model, existing, now, record_predictions=True):
     ranks = ranks.sort_values(['elo', 'team'], ascending=[False, True]).reset_index(drop=True)
     ranks.insert(0, 'rank', np.arange(1, len(ranks) + 1))
     ranks['as_of_date'] = str(now.date())
-    margin = history.home_score - history.away_score
-    p = history.p_home.clip(1e-6, 1 - 1e-6)
-    logits = np.log(p / (1 - p))
-    slope = minimize_scalar(lambda s: np.mean(np.abs(margin - s * logits)), bounds=(0, 20), method='bounded').x
+    slope = float(params.spread_slope)
     future = games[games.season.eq(season) & games.home_score.isna() & games.away_score.isna()].copy()
     future = future[kickoff_utc(future).gt(now)].copy()
     ratings = ranks.set_index('team').elo
@@ -570,11 +594,12 @@ def make_outputs(games, model, existing, now, record_predictions=True):
     cols = ['as_of_date', 'season', 'week', 'game_id', 'gameday', 'gametime', 'away_team', 'home_team',
             'away_rank', 'home_rank', 'away_elo', 'home_elo', 'p_away', 'p_home', 'elo_home_margin', 'model_home_spread']
     future = future[cols].sort_values(['gameday', 'gametime', 'game_id']).reset_index(drop=True)
-    # The weekly schedule also shows completed games; never backfill a forecast after kickoff.
+    # Like NFL, keep the first unfinished league matchday, including its completed games.
     current = games[games.season.eq(season)].copy()
-    this_week = now.strftime('%G-W%V')
-    week = (this_week if current.week.eq(this_week).any() else
-            future.iloc[0].week if not future.empty else current.week.max())
+    current['week'] = pd.to_numeric(current.week, errors='raise').astype('Int64')
+    future['week'] = pd.to_numeric(future.week, errors='raise').astype('Int64')
+    unfinished = current.loc[current.home_score.isna(), 'week'].dropna()
+    week = unfinished.min() if not unfinished.empty else current.week.max()
     archive = (update_archive(existing, future[future.week.eq(week)], now)
                if record_predictions else existing.copy())
     weekly = current[current.week.eq(week)].copy()
@@ -628,7 +653,7 @@ def main():
     games, source_metadata = load_games(args.data_dir, now, args.offline)
     model = fit_model(games, args.output_dir)
     archive_path = args.output_dir / 'historical_predictions.csv'
-    archive = (pd.read_csv(archive_path) if archive_path.exists() else pd.DataFrame(
+    archive = (pd.read_csv(archive_path, float_precision='round_trip') if archive_path.exists() else pd.DataFrame(
         columns=['game_id', 'gameday', 'gametime', 'p_home', 'prediction_timestamp']))
     outputs, metrics = make_outputs(games, model, archive, now, record_predictions=not args.offline)
     # All calculations/validation finish before any published output is replaced.
