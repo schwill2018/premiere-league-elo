@@ -1,8 +1,7 @@
 {
-  "downloaded_at": "2026-10-19T03:31:16.894160+01:00",
+  "downloaded_at": "2026-10-19T20:39:22.607793+01:00",
   "source": "https://www.football-data.co.uk/englandm.php",
   "fixtures_source": "https://www.football-data.co.uk/fixtures.csv",
-  "fixtures_status": "downloaded",
   "latest_result_date": "2026-10-12",
   "completed_matches": 8800,
   "season_counts": {
@@ -31,8 +30,8 @@
     "2025": 380,
     "2026": 60
   },
-  "generated_at": "2026-10-19T20:09:57.712302+01:00",
-  "offline": true,
+  "generated_at": "2026-10-19T20:39:22.607793+01:00",
+  "offline": false,
   "current_season": 2026,
   "metrics": {
     "notebook_diagnostic_accuracy": 0.7079578139980824,
