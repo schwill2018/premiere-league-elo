@@ -8808,7 +8808,7 @@ gameday,gametime,season,home_team,away_team,home_score,away_score,location,game_
 2026-10-18,14:00,2026,Brighton,Crystal Palace,5.0,0.0,Home,PL,7,2026_Brighton_Crystal Palace,True
 2026-10-18,14:00,2026,Leeds,Man United,1.0,1.0,Home,PL,7,2026_Leeds_Man United,True
 2026-10-18,16:30,2026,Nott'm Forest,Arsenal,0.0,1.0,Home,PL,7,2026_Nott'm Forest_Arsenal,True
-2026-10-19,20:00,2026,Tottenham,Coventry,,,Home,PL,7,2026_Tottenham_Coventry,False
+2026-10-19,20:00,2026,Tottenham,Coventry,3.0,1.0,Home,PL,7,2026_Tottenham_Coventry,True
 2026-10-23,20:00,2026,Ipswich,Nott'm Forest,,,Home,PL,8,2026_Ipswich_Nott'm Forest,False
 2026-10-24,12:30,2026,Aston Villa,Man City,,,Home,PL,8,2026_Aston Villa_Man City,False
 2026-10-24,15:00,2026,Arsenal,Everton,,,Home,PL,8,2026_Arsenal_Everton,False
