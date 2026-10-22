@@ -1,5 +1,5 @@
 {
-  "downloaded_at": "2026-10-21T14:25:08.584748+01:00",
+  "downloaded_at": "2026-10-22T14:26:14.362837+01:00",
   "source": "https://fantasy.premierleague.com/api/fixtures/",
   "historical_source": "https://www.football-data.co.uk/englandm.php",
   "fixtures_source": "https://fantasy.premierleague.com/api/fixtures/",
@@ -31,7 +31,7 @@
     "2025": 380,
     "2026": 70
   },
-  "generated_at": "2026-10-21T14:25:08.584748+01:00",
+  "generated_at": "2026-10-22T14:26:14.362837+01:00",
   "offline": false,
   "current_season": 2026,
   "metrics": {
