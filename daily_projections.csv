@@ -1,1 +1,2 @@
 as_of_date,season,week,game_id,gameday,gametime,away_team,home_team,away_rank,home_rank,away_elo,home_elo,p_away,p_home,elo_home_margin,model_home_spread
+2026-10-23,2026,8,2026_Ipswich_Nott'm Forest,2026-10-23,20:00,Nott'm Forest,Ipswich,11,20,1078.549957876515,938.528935067051,0.6063167105270888,0.39368328947291115,-0.3145400146985261,0.5
