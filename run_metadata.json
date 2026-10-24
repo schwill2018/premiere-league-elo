@@ -1,10 +1,10 @@
 {
-  "downloaded_at": "2026-10-23T14:04:12.339594+01:00",
+  "downloaded_at": "2026-10-24T13:26:50.144178+01:00",
   "source": "https://fantasy.premierleague.com/api/fixtures/",
   "historical_source": "https://www.football-data.co.uk/englandm.php",
   "fixtures_source": "https://fantasy.premierleague.com/api/fixtures/",
-  "latest_result_date": "2026-10-19",
-  "completed_matches": 8810,
+  "latest_result_date": "2026-10-23",
+  "completed_matches": 8811,
   "season_counts": {
     "2003": 380,
     "2004": 380,
@@ -29,16 +29,16 @@
     "2023": 380,
     "2024": 380,
     "2025": 380,
-    "2026": 70
+    "2026": 71
   },
-  "generated_at": "2026-10-23T14:04:12.339594+01:00",
+  "generated_at": "2026-10-24T13:26:50.144178+01:00",
   "offline": false,
   "current_season": 2026,
   "metrics": {
     "notebook_diagnostic_accuracy": 0.7078866768759571,
     "notebook_diagnostic_logloss": 0.5654988216504424,
     "notebook_diagnostic_games": 5224,
-    "draws_excluded_from_binary_diagnostic": 1686,
+    "draws_excluded_from_binary_diagnostic": 1687,
     "production_margin_slope": 0.7283451363667883,
     "deployed_scored_games": 1
   },
