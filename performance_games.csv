@@ -5174,3 +5174,7 @@ season,week,game_id,gameday,away_team,home_team,p_home,home_score,away_score,eva
 2025,2026-W21,2025_Tottenham_Everton,2026-05-24,Everton,Tottenham,0.4581700654932608,1.0,0.0,historical,1
 2025,2026-W21,2025_West Ham_Leeds,2026-05-24,Leeds,West Ham,0.4598120048780593,3.0,0.0,historical,1
 2026,7,2026_Tottenham_Coventry,2026-10-19,Coventry,Tottenham,0.5794794718114366,3.0,1.0,deployed,1
+2026,8,2026_Aston Villa_Man City,2026-10-24,Man City,Aston Villa,0.28365005876350147,2.0,1.0,deployed,1
+2026,8,2026_Arsenal_Everton,2026-10-24,Everton,Arsenal,0.8591161665161504,2.0,0.0,deployed,1
+2026,8,2026_Coventry_Fulham,2026-10-24,Fulham,Coventry,0.5259542887341381,0.0,1.0,deployed,0
+2026,8,2026_Chelsea_Tottenham,2026-10-24,Tottenham,Chelsea,0.7688288284043855,0.0,2.0,deployed,0
