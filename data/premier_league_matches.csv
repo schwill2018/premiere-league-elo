@@ -8814,11 +8814,11 @@ gameday,gametime,season,home_team,away_team,home_score,away_score,location,game_
 2026-10-24,15:00,2026,Arsenal,Everton,2.0,0.0,Home,PL,8,2026_Arsenal_Everton,True
 2026-10-24,15:00,2026,Coventry,Fulham,0.0,1.0,Home,PL,8,2026_Coventry_Fulham,True
 2026-10-24,17:30,2026,Chelsea,Tottenham,0.0,2.0,Home,PL,8,2026_Chelsea_Tottenham,True
-2026-10-25,14:00,2026,Crystal Palace,Newcastle,,,Home,PL,8,2026_Crystal Palace_Newcastle,False
-2026-10-25,14:00,2026,Hull,Brentford,,,Home,PL,8,2026_Hull_Brentford,False
-2026-10-25,14:00,2026,Liverpool,Brighton,,,Home,PL,8,2026_Liverpool_Brighton,False
-2026-10-25,14:00,2026,Man United,Bournemouth,,,Home,PL,8,2026_Man United_Bournemouth,False
-2026-10-25,16:30,2026,Sunderland,Leeds,,,Home,PL,8,2026_Sunderland_Leeds,False
+2026-10-25,14:00,2026,Crystal Palace,Newcastle,0.0,2.0,Home,PL,8,2026_Crystal Palace_Newcastle,True
+2026-10-25,14:00,2026,Hull,Brentford,1.0,1.0,Home,PL,8,2026_Hull_Brentford,True
+2026-10-25,14:00,2026,Liverpool,Brighton,2.0,0.0,Home,PL,8,2026_Liverpool_Brighton,True
+2026-10-25,14:00,2026,Man United,Bournemouth,0.0,3.0,Home,PL,8,2026_Man United_Bournemouth,True
+2026-10-25,16:30,2026,Sunderland,Leeds,0.0,0.0,Home,PL,8,2026_Sunderland_Leeds,True
 2026-10-31,12:30,2026,Chelsea,Man United,,,Home,PL,9,2026_Chelsea_Man United,False
 2026-10-31,15:00,2026,Bournemouth,Leeds,,,Home,PL,9,2026_Bournemouth_Leeds,False
 2026-10-31,15:00,2026,Brentford,Nott'm Forest,,,Home,PL,9,2026_Brentford_Nott'm Forest,False
