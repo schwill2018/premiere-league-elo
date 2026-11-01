@@ -8819,14 +8819,14 @@ gameday,gametime,season,home_team,away_team,home_score,away_score,location,game_
 2026-10-25,14:00,2026,Liverpool,Brighton,2.0,0.0,Home,PL,8,2026_Liverpool_Brighton,True
 2026-10-25,14:00,2026,Man United,Bournemouth,0.0,3.0,Home,PL,8,2026_Man United_Bournemouth,True
 2026-10-25,16:30,2026,Sunderland,Leeds,0.0,0.0,Home,PL,8,2026_Sunderland_Leeds,True
-2026-10-31,12:30,2026,Chelsea,Man United,,,Home,PL,9,2026_Chelsea_Man United,False
-2026-10-31,15:00,2026,Bournemouth,Leeds,,,Home,PL,9,2026_Bournemouth_Leeds,False
-2026-10-31,15:00,2026,Brentford,Nott'm Forest,,,Home,PL,9,2026_Brentford_Nott'm Forest,False
-2026-10-31,15:00,2026,Coventry,Sunderland,,,Home,PL,9,2026_Coventry_Sunderland,False
-2026-10-31,15:00,2026,Hull,Ipswich,,,Home,PL,9,2026_Hull_Ipswich,False
-2026-10-31,15:00,2026,Man City,Brighton,,,Home,PL,9,2026_Man City_Brighton,False
-2026-10-31,17:30,2026,Tottenham,Crystal Palace,,,Home,PL,9,2026_Tottenham_Crystal Palace,False
-2026-10-31,20:00,2026,Aston Villa,Fulham,,,Home,PL,9,2026_Aston Villa_Fulham,False
+2026-10-31,12:30,2026,Chelsea,Man United,2.0,0.0,Home,PL,9,2026_Chelsea_Man United,True
+2026-10-31,15:00,2026,Bournemouth,Leeds,2.0,0.0,Home,PL,9,2026_Bournemouth_Leeds,True
+2026-10-31,15:00,2026,Brentford,Nott'm Forest,2.0,0.0,Home,PL,9,2026_Brentford_Nott'm Forest,True
+2026-10-31,15:00,2026,Coventry,Sunderland,3.0,1.0,Home,PL,9,2026_Coventry_Sunderland,True
+2026-10-31,15:00,2026,Hull,Ipswich,2.0,2.0,Home,PL,9,2026_Hull_Ipswich,True
+2026-10-31,15:00,2026,Man City,Brighton,0.0,1.0,Home,PL,9,2026_Man City_Brighton,True
+2026-10-31,17:30,2026,Tottenham,Crystal Palace,2.0,0.0,Home,PL,9,2026_Tottenham_Crystal Palace,True
+2026-10-31,20:00,2026,Aston Villa,Fulham,1.0,1.0,Home,PL,9,2026_Aston Villa_Fulham,True
 2026-11-01,16:30,2026,Liverpool,Arsenal,,,Home,PL,9,2026_Liverpool_Arsenal,False
 2026-11-02,20:00,2026,Newcastle,Everton,,,Home,PL,9,2026_Newcastle_Everton,False
 2026-11-06,20:00,2026,Everton,Coventry,,,Home,PL,10,2026_Everton_Coventry,False
