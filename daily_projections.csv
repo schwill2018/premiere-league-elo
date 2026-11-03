@@ -1,2 +1,1 @@
 as_of_date,season,week,game_id,gameday,gametime,away_team,home_team,away_rank,home_rank,away_elo,home_elo,p_away,p_home,elo_home_margin,model_home_spread
-2026-11-02,2026,9,2026_Newcastle_Everton,2026-11-02,20:00,Everton,Newcastle,13,11,1071.3849799302932,1085.5435071973363,0.3880127825040156,0.6119872174959844,0.3318872950229684,-0.5
