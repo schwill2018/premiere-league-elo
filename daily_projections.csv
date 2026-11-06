@@ -1,1 +1,2 @@
 as_of_date,season,week,game_id,gameday,gametime,away_team,home_team,away_rank,home_rank,away_elo,home_elo,p_away,p_home,elo_home_margin,model_home_spread
+2026-11-06,2026,10,2026_Everton_Coventry,2026-11-06,20:00,Coventry,Everton,18,11,998.244373058097,1087.5536376874236,0.2914658254264799,0.7085341745735201,0.6469711628418928,-0.5
