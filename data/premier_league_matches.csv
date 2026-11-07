@@ -8829,8 +8829,8 @@ gameday,gametime,season,home_team,away_team,home_score,away_score,location,game_
 2026-10-31,20:00,2026,Aston Villa,Fulham,1.0,1.0,Home,PL,9,2026_Aston Villa_Fulham,True
 2026-11-01,16:30,2026,Liverpool,Arsenal,0.0,1.0,Home,PL,9,2026_Liverpool_Arsenal,True
 2026-11-02,20:00,2026,Newcastle,Everton,0.0,1.0,Home,PL,9,2026_Newcastle_Everton,True
-2026-11-06,20:00,2026,Everton,Coventry,,,Home,PL,10,2026_Everton_Coventry,False
-2026-11-07,12:30,2026,Leeds,Tottenham,,,Home,PL,10,2026_Leeds_Tottenham,False
+2026-11-06,20:00,2026,Everton,Coventry,3.0,1.0,Home,PL,10,2026_Everton_Coventry,True
+2026-11-07,12:30,2026,Leeds,Tottenham,1.0,0.0,Home,PL,10,2026_Leeds_Tottenham,True
 2026-11-07,15:00,2026,Arsenal,Hull,,,Home,PL,10,2026_Arsenal_Hull,False
 2026-11-07,15:00,2026,Fulham,Newcastle,,,Home,PL,10,2026_Fulham_Newcastle,False
 2026-11-07,17:30,2026,Nott'm Forest,Man City,,,Home,PL,10,2026_Nott'm Forest_Man City,False

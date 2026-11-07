@@ -5189,3 +5189,5 @@ season,week,game_id,gameday,away_team,home_team,p_home,home_score,away_score,eva
 2026,9,2026_Tottenham_Crystal Palace,2026-10-31,Crystal Palace,Tottenham,0.6335696893647312,2.0,0.0,deployed,1
 2026,9,2026_Liverpool_Arsenal,2026-11-01,Arsenal,Liverpool,0.4078198200697946,0.0,1.0,deployed,0
 2026,9,2026_Newcastle_Everton,2026-11-02,Everton,Newcastle,0.6119872174959844,0.0,1.0,deployed,0
+2026,10,2026_Everton_Coventry,2026-11-06,Coventry,Everton,0.7085341745735201,3.0,1.0,deployed,1
+2026,10,2026_Leeds_Tottenham,2026-11-07,Tottenham,Leeds,0.6435337433582738,1.0,0.0,deployed,1
