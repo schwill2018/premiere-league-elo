@@ -5191,3 +5191,5 @@ season,week,game_id,gameday,away_team,home_team,p_home,home_score,away_score,eva
 2026,9,2026_Newcastle_Everton,2026-11-02,Everton,Newcastle,0.6119872174959844,0.0,1.0,deployed,0
 2026,10,2026_Everton_Coventry,2026-11-06,Coventry,Everton,0.7085341745735201,3.0,1.0,deployed,1
 2026,10,2026_Leeds_Tottenham,2026-11-07,Tottenham,Leeds,0.6435337433582738,1.0,0.0,deployed,1
+2026,10,2026_Arsenal_Hull,2026-11-07,Hull,Arsenal,0.9214448289895887,1.0,0.0,deployed,1
+2026,10,2026_Nott'm Forest_Man City,2026-11-07,Man City,Nott'm Forest,0.25765705903128394,3.0,1.0,deployed,1
