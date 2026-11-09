@@ -1,2 +1,1 @@
 as_of_date,season,week,game_id,gameday,gametime,away_team,home_team,away_rank,home_rank,away_elo,home_elo,p_away,p_home,elo_home_margin,model_home_spread
-2026-11-08,2026,10,2026_Man United_Aston Villa,2026-11-08,16:30,Aston Villa,Man United,7,9,1142.303126936689,1124.7752133138117,0.43210417356207875,0.5678958264379212,0.19903581939629558,-0.0

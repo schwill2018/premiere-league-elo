@@ -8834,11 +8834,11 @@ gameday,gametime,season,home_team,away_team,home_score,away_score,location,game_
 2026-11-07,15:00,2026,Arsenal,Hull,1.0,0.0,Home,PL,10,2026_Arsenal_Hull,True
 2026-11-07,15:00,2026,Fulham,Newcastle,1.0,1.0,Home,PL,10,2026_Fulham_Newcastle,True
 2026-11-07,17:30,2026,Nott'm Forest,Man City,3.0,1.0,Home,PL,10,2026_Nott'm Forest_Man City,True
-2026-11-08,14:00,2026,Brighton,Brentford,,,Home,PL,10,2026_Brighton_Brentford,False
-2026-11-08,14:00,2026,Crystal Palace,Liverpool,,,Home,PL,10,2026_Crystal Palace_Liverpool,False
-2026-11-08,14:00,2026,Ipswich,Bournemouth,,,Home,PL,10,2026_Ipswich_Bournemouth,False
-2026-11-08,14:00,2026,Sunderland,Chelsea,,,Home,PL,10,2026_Sunderland_Chelsea,False
-2026-11-08,16:30,2026,Man United,Aston Villa,,,Home,PL,10,2026_Man United_Aston Villa,False
+2026-11-08,14:00,2026,Brighton,Brentford,2.0,0.0,Home,PL,10,2026_Brighton_Brentford,True
+2026-11-08,14:00,2026,Crystal Palace,Liverpool,1.0,3.0,Home,PL,10,2026_Crystal Palace_Liverpool,True
+2026-11-08,14:00,2026,Ipswich,Bournemouth,1.0,2.0,Home,PL,10,2026_Ipswich_Bournemouth,True
+2026-11-08,14:00,2026,Sunderland,Chelsea,1.0,0.0,Home,PL,10,2026_Sunderland_Chelsea,True
+2026-11-08,16:30,2026,Man United,Aston Villa,4.0,4.0,Home,PL,10,2026_Man United_Aston Villa,True
 2026-11-21,12:30,2026,Man City,Fulham,,,Home,PL,11,2026_Man City_Fulham,False
 2026-11-21,15:00,2026,Aston Villa,Sunderland,,,Home,PL,11,2026_Aston Villa_Sunderland,False
 2026-11-21,15:00,2026,Bournemouth,Nott'm Forest,,,Home,PL,11,2026_Bournemouth_Nott'm Forest,False

@@ -5193,3 +5193,7 @@ season,week,game_id,gameday,away_team,home_team,p_home,home_score,away_score,eva
 2026,10,2026_Leeds_Tottenham,2026-11-07,Tottenham,Leeds,0.6435337433582738,1.0,0.0,deployed,1
 2026,10,2026_Arsenal_Hull,2026-11-07,Hull,Arsenal,0.9214448289895887,1.0,0.0,deployed,1
 2026,10,2026_Nott'm Forest_Man City,2026-11-07,Man City,Nott'm Forest,0.25765705903128394,3.0,1.0,deployed,1
+2026,10,2026_Brighton_Brentford,2026-11-08,Brentford,Brighton,0.6935222555307293,2.0,0.0,deployed,1
+2026,10,2026_Crystal Palace_Liverpool,2026-11-08,Liverpool,Crystal Palace,0.33395194362317804,1.0,3.0,deployed,0
+2026,10,2026_Ipswich_Bournemouth,2026-11-08,Bournemouth,Ipswich,0.27104896603983514,1.0,2.0,deployed,0
+2026,10,2026_Sunderland_Chelsea,2026-11-08,Chelsea,Sunderland,0.41984411858137344,1.0,0.0,deployed,1
