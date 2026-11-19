@@ -8939,36 +8939,36 @@ gameday,gametime,season,home_team,away_team,home_score,away_score,location,game_
 2027-01-06,19:30,2026,Ipswich,Coventry,,,Home,PL,20,2026_Ipswich_Coventry,False
 2027-01-06,20:15,2026,Leeds,Man City,,,Home,PL,20,2026_Leeds_Man City,False
 2027-01-07,20:00,2026,Man United,Newcastle,,,Home,PL,20,2026_Man United_Newcastle,False
-2027-01-16,15:00,2026,Aston Villa,Man United,,,Home,PL,21,2026_Aston Villa_Man United,False
-2027-01-16,15:00,2026,Bournemouth,Ipswich,,,Home,PL,21,2026_Bournemouth_Ipswich,False
-2027-01-16,15:00,2026,Brentford,Brighton,,,Home,PL,21,2026_Brentford_Brighton,False
+2027-01-16,12:30,2026,Coventry,Everton,,,Home,PL,21,2026_Coventry_Everton,False
 2027-01-16,15:00,2026,Chelsea,Sunderland,,,Home,PL,21,2026_Chelsea_Sunderland,False
-2027-01-16,15:00,2026,Coventry,Everton,,,Home,PL,21,2026_Coventry_Everton,False
 2027-01-16,15:00,2026,Hull,Arsenal,,,Home,PL,21,2026_Hull_Arsenal,False
 2027-01-16,15:00,2026,Liverpool,Crystal Palace,,,Home,PL,21,2026_Liverpool_Crystal Palace,False
 2027-01-16,15:00,2026,Man City,Nott'm Forest,,,Home,PL,21,2026_Man City_Nott'm Forest,False
 2027-01-16,15:00,2026,Newcastle,Fulham,,,Home,PL,21,2026_Newcastle_Fulham,False
-2027-01-16,15:00,2026,Tottenham,Leeds,,,Home,PL,21,2026_Tottenham_Leeds,False
-2027-01-23,15:00,2026,Arsenal,Newcastle,,,Home,PL,22,2026_Arsenal_Newcastle,False
-2027-01-23,15:00,2026,Brighton,Man City,,,Home,PL,22,2026_Brighton_Man City,False
-2027-01-23,15:00,2026,Crystal Palace,Tottenham,,,Home,PL,22,2026_Crystal Palace_Tottenham,False
-2027-01-23,15:00,2026,Everton,Brentford,,,Home,PL,22,2026_Everton_Brentford,False
+2027-01-16,17:30,2026,Aston Villa,Man United,,,Home,PL,21,2026_Aston Villa_Man United,False
+2027-01-17,14:00,2026,Bournemouth,Ipswich,,,Home,PL,21,2026_Bournemouth_Ipswich,False
+2027-01-17,16:30,2026,Tottenham,Leeds,,,Home,PL,21,2026_Tottenham_Leeds,False
+2027-01-18,20:00,2026,Brentford,Brighton,,,Home,PL,21,2026_Brentford_Brighton,False
 2027-01-23,15:00,2026,Fulham,Aston Villa,,,Home,PL,22,2026_Fulham_Aston Villa,False
 2027-01-23,15:00,2026,Ipswich,Hull,,,Home,PL,22,2026_Ipswich_Hull,False
-2027-01-23,15:00,2026,Leeds,Chelsea,,,Home,PL,22,2026_Leeds_Chelsea,False
-2027-01-23,15:00,2026,Man United,Liverpool,,,Home,PL,22,2026_Man United_Liverpool,False
-2027-01-23,15:00,2026,Nott'm Forest,Bournemouth,,,Home,PL,22,2026_Nott'm Forest_Bournemouth,False
-2027-01-23,15:00,2026,Sunderland,Coventry,,,Home,PL,22,2026_Sunderland_Coventry,False
+2027-01-23,17:30,2026,Arsenal,Newcastle,,,Home,PL,22,2026_Arsenal_Newcastle,False
+2027-01-23,20:00,2026,Brighton,Man City,,,Home,PL,22,2026_Brighton_Man City,False
+2027-01-24,14:00,2026,Crystal Palace,Tottenham,,,Home,PL,22,2026_Crystal Palace_Tottenham,False
+2027-01-24,14:00,2026,Everton,Brentford,,,Home,PL,22,2026_Everton_Brentford,False
+2027-01-24,14:00,2026,Nott'm Forest,Bournemouth,,,Home,PL,22,2026_Nott'm Forest_Bournemouth,False
+2027-01-24,14:00,2026,Sunderland,Coventry,,,Home,PL,22,2026_Sunderland_Coventry,False
+2027-01-24,16:30,2026,Man United,Liverpool,,,Home,PL,22,2026_Man United_Liverpool,False
+2027-01-25,20:00,2026,Leeds,Chelsea,,,Home,PL,22,2026_Leeds_Chelsea,False
+2027-01-30,12:30,2026,Liverpool,Everton,,,Home,PL,23,2026_Liverpool_Everton,False
 2027-01-30,15:00,2026,Aston Villa,Ipswich,,,Home,PL,23,2026_Aston Villa_Ipswich,False
-2027-01-30,15:00,2026,Bournemouth,Fulham,,,Home,PL,23,2026_Bournemouth_Fulham,False
-2027-01-30,15:00,2026,Brentford,Man United,,,Home,PL,23,2026_Brentford_Man United,False
-2027-01-30,15:00,2026,Chelsea,Nott'm Forest,,,Home,PL,23,2026_Chelsea_Nott'm Forest,False
-2027-01-30,15:00,2026,Coventry,Leeds,,,Home,PL,23,2026_Coventry_Leeds,False
-2027-01-30,15:00,2026,Hull,Crystal Palace,,,Home,PL,23,2026_Hull_Crystal Palace,False
-2027-01-30,15:00,2026,Liverpool,Everton,,,Home,PL,23,2026_Liverpool_Everton,False
-2027-01-30,15:00,2026,Man City,Arsenal,,,Home,PL,23,2026_Man City_Arsenal,False
 2027-01-30,15:00,2026,Newcastle,Brighton,,,Home,PL,23,2026_Newcastle_Brighton,False
-2027-01-30,15:00,2026,Tottenham,Sunderland,,,Home,PL,23,2026_Tottenham_Sunderland,False
+2027-01-30,17:30,2026,Chelsea,Nott'm Forest,,,Home,PL,23,2026_Chelsea_Nott'm Forest,False
+2027-01-31,14:00,2026,Bournemouth,Fulham,,,Home,PL,23,2026_Bournemouth_Fulham,False
+2027-01-31,14:00,2026,Coventry,Leeds,,,Home,PL,23,2026_Coventry_Leeds,False
+2027-01-31,14:00,2026,Hull,Crystal Palace,,,Home,PL,23,2026_Hull_Crystal Palace,False
+2027-01-31,14:00,2026,Tottenham,Sunderland,,,Home,PL,23,2026_Tottenham_Sunderland,False
+2027-01-31,16:30,2026,Man City,Arsenal,,,Home,PL,23,2026_Man City_Arsenal,False
+2027-02-01,20:00,2026,Brentford,Man United,,,Home,PL,23,2026_Brentford_Man United,False
 2027-02-06,15:00,2026,Arsenal,Liverpool,,,Home,PL,24,2026_Arsenal_Liverpool,False
 2027-02-06,15:00,2026,Brighton,Hull,,,Home,PL,24,2026_Brighton_Hull,False
 2027-02-06,15:00,2026,Crystal Palace,Coventry,,,Home,PL,24,2026_Crystal Palace_Coventry,False
