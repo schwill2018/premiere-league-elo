@@ -1,1 +1,2 @@
 as_of_date,season,week,game_id,gameday,gametime,away_team,home_team,away_rank,home_rank,away_elo,home_elo,p_away,p_home,elo_home_margin,model_home_spread
+2026-11-21,2026,11,2026_Newcastle_Arsenal,2026-11-21,17:30,Arsenal,Newcastle,1,14,1341.5066854983081,1072.0275016084004,0.7644217979032686,0.2355782020967314,-0.8573181635982771,1.0
