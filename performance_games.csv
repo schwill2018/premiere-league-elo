@@ -5197,3 +5197,7 @@ season,week,game_id,gameday,away_team,home_team,p_home,home_score,away_score,eva
 2026,10,2026_Crystal Palace_Liverpool,2026-11-08,Liverpool,Crystal Palace,0.33395194362317804,1.0,3.0,deployed,0
 2026,10,2026_Ipswich_Bournemouth,2026-11-08,Bournemouth,Ipswich,0.27104896603983514,1.0,2.0,deployed,0
 2026,10,2026_Sunderland_Chelsea,2026-11-08,Chelsea,Sunderland,0.41984411858137344,1.0,0.0,deployed,1
+2026,11,2026_Bournemouth_Nott'm Forest,2026-11-21,Nott'm Forest,Bournemouth,0.7114869634234864,2.0,0.0,deployed,1
+2026,11,2026_Chelsea_Leeds,2026-11-21,Leeds,Chelsea,0.5961199919614069,1.0,4.0,deployed,0
+2026,11,2026_Coventry_Crystal Palace,2026-11-21,Crystal Palace,Coventry,0.585034055568494,3.0,2.0,deployed,1
+2026,11,2026_Tottenham_Ipswich,2026-11-21,Ipswich,Tottenham,0.7388203848888472,2.0,0.0,deployed,1
