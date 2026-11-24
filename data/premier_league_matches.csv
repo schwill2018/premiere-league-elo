@@ -8848,7 +8848,7 @@ gameday,gametime,season,home_team,away_team,home_score,away_score,location,game_
 2026-11-21,17:30,2026,Newcastle,Arsenal,2.0,2.0,Home,PL,11,2026_Newcastle_Arsenal,True
 2026-11-22,14:00,2026,Hull,Brighton,2.0,0.0,Home,PL,11,2026_Hull_Brighton,True
 2026-11-22,16:30,2026,Liverpool,Man United,4.0,0.0,Home,PL,11,2026_Liverpool_Man United,True
-2026-11-23,20:00,2026,Brentford,Everton,,,Home,PL,11,2026_Brentford_Everton,False
+2026-11-23,20:00,2026,Brentford,Everton,4.0,0.0,Home,PL,11,2026_Brentford_Everton,True
 2026-11-27,20:00,2026,Nott'm Forest,Chelsea,,,Home,PL,12,2026_Nott'm Forest_Chelsea,False
 2026-11-28,15:00,2026,Leeds,Coventry,,,Home,PL,12,2026_Leeds_Coventry,False
 2026-11-28,15:00,2026,Man United,Brentford,,,Home,PL,12,2026_Man United_Brentford,False

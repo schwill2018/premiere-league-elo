@@ -1,2 +1,1 @@
 as_of_date,season,week,game_id,gameday,gametime,away_team,home_team,away_rank,home_rank,away_elo,home_elo,p_away,p_home,elo_home_margin,model_home_spread
-2026-11-23,2026,11,2026_Brentford_Everton,2026-11-23,20:00,Everton,Brentford,10,8,1098.254420442991,1136.3553099625112,0.35583301407075896,0.644166985929241,0.432270236934306,-0.5
